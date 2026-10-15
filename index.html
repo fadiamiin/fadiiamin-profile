@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Fadi Elamin | فادي الأمين — UAV, Aviation &amp; Defense Technology | My Skies Aviation</title>
+<meta name="description" content="Fadi Elamin (فادي الأمين), Founder &amp; CEO of My Skies Aviation, Dubai. UAV systems, anti-drone, U-Space &amp; BVLOS advisory, AI and aviation consulting across the GCC, Africa and Europe.">
+<meta name="keywords" content="Fadi Elamin, فادي الأمين, My Skies Aviation, UAV, drone, درون, طائرات بدون طيار, Anti-UAV, مكافحة الدرون, U-Space, BVLOS, Dubai, دبي, aviation consultant">
+<meta property="og:title" content="Fadi Elamin — UAV, Aviation &amp; Defense Technology">
+<meta property="og:image" content="assets/p1.png">
+<link rel="stylesheet" href="_ds/industry-fbaeffb6-7edd-426e-8838-178f532353ee/styles.css">
+<script src="_ds/industry-fbaeffb6-7edd-426e-8838-178f532353ee/_ds_bundle.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&amp;family=Barlow:wght@300;400;500;600&amp;family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Fadi Elamin","alternateName":"فادي الأمين","jobTitle":"Founder & CEO","worksFor":{"@type":"Organization","name":"My Skies Aviation","url":"https://myskies.net"},"address":{"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE"},"sameAs":["https://www.linkedin.com/in/fadiamin/","https://www.instagram.com/fadiamiin/","https://linktr.ee/fadiamin","https://twitter.com/fadiamin88","https://www.facebook.com/fadiamin"],"knowsAbout":["UAV","Anti-UAV","U-Space","BVLOS","Aviation Safety","Artificial Intelligence","Defense Technology"]}</script>
+<style>
+:root{--color-bg:#0a0b0d;--color-surface:#111317;--color-text:#e8ebee;--color-divider:rgba(232,235,238,.13)}
+html{scroll-behavior:smooth;scroll-padding-top:72px;background:#0a0b0d;-webkit-text-size-adjust:100%}
+a,button{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+body{margin:0;background:#0a0b0d;color:#e8ebee;font-family:"Barlow","IBM Plex Sans Arabic",system-ui,sans-serif}
+h1,h2,h3,h4{font-family:"Barlow Condensed","IBM Plex Sans Arabic",system-ui,sans-serif}
+a{color:#94bce3;text-decoration:none}
+a:hover{color:#b5d9fd}
+[data-lang="ar"] [data-l="en"],[data-lang="en"] [data-l="ar"]{display:none !important}
+[data-photo="natural"] .duotone::after{display:none}
+@keyframes fe-spin{to{transform:rotate(360deg)}}
+@keyframes fe-pulse{0%,100%{opacity:.2}50%{opacity:1}}
+@keyframes fe-scan{0%{transform:translateY(-100%)}100%{transform:translateY(100%)}}
+@keyframes fe-marquee{to{transform:translateX(-50%)}}
+@keyframes fe-rise{from{transform:translateY(105%)}to{transform:none}}
+@keyframes fe-fade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes fe-zoom{from{transform:scale(1.12)}to{transform:scale(1)}}
+</style>
+</helmet>
+<div data-lang="{{ lang }}" dir="{{ dir }}" data-photo="{{ photo }}" style="background:#0a0b0d;color:var(--color-text);font-family:'Barlow','IBM Plex Sans Arabic',system-ui,sans-serif;min-height:100vh;overflow-x:hidden">
+
+<header style="position:sticky;top:0;z-index:50;background:rgba(10,11,13,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--color-divider)">
+  <div ref="{{ progRef }}" style="position:absolute;bottom:-1px;inset-inline-start:0;height:2px;width:0;background:#94bce3;z-index:2"></div>
+  <div style="max-width:1280px;margin:0 auto;padding:12px clamp(16px,4vw,28px);display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap">
+    <a href="#top" style="display:flex;align-items:center;gap:12px;color:var(--color-text)">
+      <span style="width:30px;height:30px;border:1px solid var(--color-accent);display:grid;place-items:center;font-family:'Barlow Condensed';font-weight:700;font-size:14px;color:#94bce3">FE</span>
+      <span style="font-family:'Barlow Condensed';font-weight:600;font-size:17px;letter-spacing:.14em">FADI ELAMIN</span>
+    </a>
+    <sc-if value="{{ wideNav }}" hint-placeholder-val="{{ true }}"><nav style="display:flex;gap:2px;flex-wrap:wrap;font-size:14px">
+      <a href="#about" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">عنّي</span><span data-l="en">About</span></a>
+      <a href="#track" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">الإنجازات</span><span data-l="en">Track record</span></a>
+      <a href="#services" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">الخدمات</span><span data-l="en">Services</span></a>
+      <a href="#ai" style="color:#b5d9fd;padding:8px 11px" style-hover="color:#e8ebee"><span data-l="ar">الذكاء الاصطناعي</span><span data-l="en">AI</span></a>
+      <a href="#mfg" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">التصنيع</span><span data-l="en">Manufacturing</span></a>
+      <a href="#projects" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">المشاريع</span><span data-l="en">Projects</span></a>
+      <a href="#field" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">من الميدان</span><span data-l="en">Field</span></a>
+      <a href="#majaal" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">المجال</span><span data-l="en">Al Majaal</span></a>
+      <a href="#media" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">اللقاءات</span><span data-l="en">Media</span></a>
+            <a href="#insights" style="color:var(--color-text);padding:8px 11px" style-hover="color:#94bce3"><span data-l="ar">المعرفة</span><span data-l="en">Insights</span></a>
+    </nav></sc-if>
+    <div style="display:flex;gap:10px;align-items:center">
+      <button onClick="{{ toggleLang }}" class="btn btn-secondary" style="color:var(--color-text);padding:9px 14px;font-size:14px;min-width:44px" style-hover="background:rgba(148,188,227,.1)"><span data-l="ar">EN</span><span data-l="en">عربي</span></button>
+      <sc-if value="{{ showHeadBook }}" hint-placeholder-val="{{ true }}"><button onClick="{{ bookCall }}" class="btn btn-primary blueprint" style="padding:10px 20px;font-size:15px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span data-l="ar">احجز اجتماعاً</span><span data-l="en">Book a meeting</span></button></sc-if>
+      <sc-if value="{{ menuBtn }}" hint-placeholder-val="{{ false }}"><button onClick="{{ toggleMenu }}" aria-label="Menu" class="btn btn-secondary" style="color:var(--color-text);width:44px;height:44px;padding:0;font-size:20px;display:grid;place-items:center" style-hover="background:rgba(148,188,227,.1)">{{ menuIcon }}</button></sc-if>
+    </div>
+  </div>
+  <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+  <div style="max-height:calc(100dvh - 68px);overflow-y:auto;border-top:1px solid var(--color-divider);background:#0a0b0d;padding:6px clamp(16px,4vw,28px) 22px">
+    <nav style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:0 20px">
+      <sc-for list="{{ chapters }}" as="ch" hint-placeholder-count="14"><a href="{{ ch.href }}" onClick="{{ closeMenu }}" style="display:flex;gap:14px;align-items:center;min-height:48px;border-bottom:1px solid var(--color-divider);color:var(--color-text);font-size:17px" style-hover="color:#94bce3"><span style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.14em;color:#94bce3;min-width:22px">{{ ch.num }}</span><span>{{ ch.label }}</span></a></sc-for>
+    </nav>
+    <button onClick="{{ bookCall }}" class="btn btn-primary blueprint" style="margin-top:18px;width:100%;padding:14px 20px;font-size:16px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span data-l="ar">احجز اجتماعاً</span><span data-l="en">Book a meeting</span></button>
+  </div>
+  </sc-if>
+</header>
+
+<section id="top" ref="{{ heroRef }}" style="position:relative;min-height:calc(100svh - 60px);display:flex;flex-direction:column;border-bottom:1px solid var(--color-divider);overflow:hidden">
+  <div style="position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(232,235,238,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(232,235,238,.035) 1px,transparent 1px);background-size:64px 64px"></div>
+  <canvas ref="{{ skyRef }}" style="position:absolute;inset:0;width:100%;height:100%;display:block"></canvas>
+  <div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(560px circle at var(--mx,70%) var(--my,40%),rgba(116,157,196,.13),transparent 70%),linear-gradient(0deg,#0a0b0d 0%,rgba(10,11,13,0) 40%)"></div>
+  <div dir="ltr" style="position:relative;max-width:1280px;width:100%;margin:0 auto;padding:18px 28px 0;box-sizing:border-box;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:'Barlow Condensed';font-size:13px;letter-spacing:.16em;color:#b5d9fd"><span>{{ telemetry }}</span><span>DXB {{ clock }} GST</span><span style="animation:fe-pulse 1.6s infinite">● AIRSPACE LIVE</span></div>
+  <div style="position:relative;flex:1;max-width:1280px;width:100%;margin:0 auto;padding:48px 28px 56px;box-sizing:border-box;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,500px),1fr));gap:56px;align-items:center">
+    <div>
+      <div style="display:flex;align-items:center;gap:12px;font-family:'Barlow Condensed','IBM Plex Sans Arabic';letter-spacing:.16em;font-size:15px;color:#94bce3;animation:fe-fade .8s both"><span style="width:8px;height:8px;background:#94bce3;animation:fe-pulse 1.6s infinite"></span><span data-l="ar">فادي الأمين · المؤسس والرئيس التنفيذي — MY SKIES AVIATION</span><span data-l="en">FOUNDER &amp; CEO — MY SKIES AVIATION</span></div>
+      <h1 style="margin:22px 0 0;font-weight:600;font-size:clamp(76px,11.5vw,168px);line-height:.86;letter-spacing:-.015em">
+        <span style="display:block;overflow:hidden"><span style="display:inline-block;animation:fe-rise 1s .1s cubic-bezier(.2,.7,.2,1) both">FADI</span></span>
+        <span style="display:block;overflow:hidden"><span style="display:inline-block;color:transparent;-webkit-text-stroke:1.2px #94bce3;animation:fe-rise 1s .25s cubic-bezier(.2,.7,.2,1) both">ELAMIN</span></span>
+      </h1>
+      <div style="margin-top:30px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;font-size:clamp(22px,2.4vw,30px);font-weight:500;min-height:1.5em;animation:fe-fade .8s .5s both"><span data-l="ar">أبني</span><span data-l="en">I build</span><span style="color:#b5d9fd"><span ref="{{ typeRef }}"></span><span style="animation:fe-pulse 1s infinite;color:#94bce3">▍</span></span></div>
+      <p style="margin:18px 0 0;font-size:17px;line-height:1.8;color:rgba(232,235,238,.7);max-width:560px;text-wrap:pretty;animation:fe-fade .8s .65s both"><span data-l="ar">أكثر من 12 عاماً في الإمارات والشرق الأوسط وأفريقيا: من تشغيل الدرون ميدانياً إلى قيادة مشاريع درون الإطفاء والإنقاذ البحري، وتقديم الاستشارات لهيئات الطيران المدني في BVLOS وUTM/U-Space.</span><span data-l="en">12+ years across the UAE, the Middle East and Africa — from flying drones in the field to leading firefighting and marine-rescue drone programmes and advising civil aviation authorities on BVLOS and UTM/U-Space.</span></p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;animation:fe-fade .8s .8s both">
+        <button onClick="{{ bookCall }}" class="btn btn-primary blueprint" style="padding:14px 26px;font-size:17px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span data-l="ar">احجز استشارة</span><span data-l="en">Book a consultation</span></button>
+        <a href="#ai" class="btn btn-secondary" style="padding:14px 26px;font-size:17px;color:var(--color-text)" style-hover="background:rgba(148,188,227,.1)"><span data-l="ar">اكتشف الذكاء الاصطناعي</span><span data-l="en">Explore AI work</span></a>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;margin-top:28px;font-size:14px;color:rgba(232,235,238,.6)"><span style="width:16px;height:16px;border:1px solid #749dc4;border-radius:50%;display:grid;place-items:center"><span style="width:4px;height:4px;background:#94bce3"></span></span><sc-if value="{{ isTouch }}" hint-placeholder-val="{{ false }}"><span data-l="ar">المس المجال الجوي لتتبّع الطائرات</span><span data-l="en">Touch the airspace to lock a track</span></sc-if><sc-if value="{{ notTouch }}" hint-placeholder-val="{{ true }}"><span data-l="ar">حرّك المؤشر فوق المجال الجوي لتتبّع الطائرات</span><span data-l="en">Move your cursor across the airspace to lock a track</span></sc-if></div>
+    </div>
+    <div style="display:flex;justify-content:center;animation:fe-fade 1s .4s both">
+      <div ref="{{ tiltRef }}" style="position:relative;width:min(100%,430px);transition:transform .3s ease-out">
+        <figure class="blueprint duotone" style="margin:0;aspect-ratio:4/5;border:1px solid rgba(148,188,227,.4);background:#14171b"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <img src="https://ugc.production.linktr.ee/fa153063-b025-444d-9df5-b128eb29ecb8_fadi-event-pic.jpeg" alt="Fadi Elamin" style="width:100%;height:100%;object-fit:cover;display:block;filter:contrast(1.05) brightness(.92)">
+          <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:2"><div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 0%,rgba(148,188,227,.16) 50%,transparent 100%);animation:fe-scan 4.5s linear infinite"></div></div>
+          <div dir="ltr" style="position:absolute;inset:auto 0 0 0;z-index:3;padding:16px;background:linear-gradient(0deg,rgba(10,11,13,.92),transparent);display:flex;justify-content:space-between;gap:12px;font-family:'Barlow Condensed';font-size:13px;letter-spacing:.14em;color:#b5d9fd"><span>FOUNDER &amp; CEO · MY SKIES</span><span>DUBAI · UAE</span></div>
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div style="position:relative;border-top:1px solid var(--color-divider);background:rgba(10,11,13,.72);backdrop-filter:blur(6px)">
+    <div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))">
+      <a href="#services" style="padding:20px 24px;border-inline-end:1px solid var(--color-divider);color:var(--color-text);display:flex;justify-content:space-between;gap:12px;align-items:center;transition:background .25s" style-hover="background:rgba(116,157,196,.12)"><span style="display:flex;flex-direction:column;gap:4px"><span style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.18em;color:#94bce3">M.01 — UAV SYSTEMS</span><span style="font-size:17px;font-weight:600"><span data-l="ar">تكامل منظومات الدرون</span><span data-l="en">UAV systems integration</span></span></span><span style="color:#94bce3;font-size:18px">↓</span></a>
+      <a href="#projects" style="padding:20px 24px;border-inline-end:1px solid var(--color-divider);color:var(--color-text);display:flex;justify-content:space-between;gap:12px;align-items:center;transition:background .25s" style-hover="background:rgba(116,157,196,.12)"><span style="display:flex;flex-direction:column;gap:4px"><span style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.18em;color:#94bce3">M.02 — COUNTER-UAV</span><span style="font-size:17px;font-weight:600"><span data-l="ar">مكافحة الدرون والدفاع</span><span data-l="en">Counter-UAV &amp; defense</span></span></span><span style="color:#94bce3;font-size:18px">↓</span></a>
+      <a href="#services" style="padding:20px 24px;border-inline-end:1px solid var(--color-divider);color:var(--color-text);display:flex;justify-content:space-between;gap:12px;align-items:center;transition:background .25s" style-hover="background:rgba(116,157,196,.12)"><span style="display:flex;flex-direction:column;gap:4px"><span style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.18em;color:#94bce3">M.03 — BVLOS · U-SPACE</span><span style="font-size:17px;font-weight:600"><span data-l="ar">المجال الجوي والتنظيم</span><span data-l="en">Airspace &amp; regulation</span></span></span><span style="color:#94bce3;font-size:18px">↓</span></a>
+      <a href="#ai" style="padding:20px 24px;border-inline-end:1px solid var(--color-divider);color:var(--color-text);display:flex;justify-content:space-between;gap:12px;align-items:center;transition:background .25s" style-hover="background:rgba(116,157,196,.12)"><span style="display:flex;flex-direction:column;gap:4px"><span style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.18em;color:#94bce3">M.04 — AI · INNOVATION</span><span style="font-size:17px;font-weight:600"><span data-l="ar">الابتكار والذكاء الاصطناعي</span><span data-l="en">Innovation &amp; AI</span></span></span><span style="color:#94bce3;font-size:18px">↓</span></a>
+    </div>
+  </div>
+</section>
+
+<div style="max-width:1280px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));border-bottom:1px solid var(--color-divider)">
+  <div data-reveal="" style="padding:28px 24px;border-inline-end:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:52px;font-weight:600;line-height:1"><span data-count="12">12</span>+</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:6px"><span data-l="ar">سنة خبرة في الطيران والتقنية</span><span data-l="en">Years in aviation &amp; technology</span></div></div>
+  <div data-reveal="" style="padding:28px 24px;border-inline-end:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:52px;font-weight:600;line-height:1"><span data-count="20">20</span>+</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:6px"><span data-l="ar">دولة وصلتها حلول My Skies</span><span data-l="en">Countries reached by My Skies</span></div></div>
+  <div data-reveal="" style="padding:28px 24px;border-inline-end:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:52px;font-weight:600;line-height:1"><span data-count="7">7</span></div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:6px"><span data-l="ar">عائلات منصات UAV</span><span data-l="en">UAV platform families</span></div></div>
+  <div data-reveal="" style="padding:28px 24px"><div style="font-family:'Barlow Condensed';font-size:52px;font-weight:600;line-height:1">MSc</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:6px"><span data-l="ar">سلامة وأمن الطيران</span><span data-l="en">Aviation Safety &amp; Security</span></div></div>
+</div>
+
+<div style="border-bottom:1px solid var(--color-divider);overflow:hidden;padding:18px 0" dir="ltr">
+  <div style="display:flex;gap:56px;white-space:nowrap;width:max-content;animation:fe-marquee 40s linear infinite;font-family:'Barlow Condensed';font-size:20px;letter-spacing:.14em;color:rgba(232,235,238,.5)">
+    <span>IDEX ABU DHABI</span><span style="color:#749dc4">+</span><span>DUBAI AIRSHOW</span><span style="color:#749dc4">+</span><span>AIR EXPO ABU DHABI</span><span style="color:#749dc4">+</span><span>INTERSEC</span><span style="color:#749dc4">+</span><span>GULF FLIGHT SAFETY ASSOCIATION</span><span style="color:#749dc4">+</span><span>MOBILITY LIVE ME</span><span style="color:#749dc4">+</span><span>GLOBAL INVESTMENT IN AVIATION SUMMIT</span><span style="color:#749dc4">+</span><span>IDEX ABU DHABI</span><span style="color:#749dc4">+</span><span>DUBAI AIRSHOW</span><span style="color:#749dc4">+</span><span>AIR EXPO ABU DHABI</span><span style="color:#749dc4">+</span><span>INTERSEC</span><span style="color:#749dc4">+</span><span>GULF FLIGHT SAFETY ASSOCIATION</span><span style="color:#749dc4">+</span><span>MOBILITY LIVE ME</span><span style="color:#749dc4">+</span><span>GLOBAL INVESTMENT IN AVIATION SUMMIT</span><span style="color:#749dc4">+</span>
+  </div>
+</div>
+
+<section id="brief" style="border-bottom:1px solid var(--color-divider);background:#0d0f12">
+  <div data-reveal="" style="max-width:1280px;margin:0 auto;padding:clamp(40px,7vw,56px) clamp(18px,4.5vw,28px)">
+    <div style="display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:28px"><div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:10px">IN 30 SECONDS</div><h2 style="margin:0;font-size:clamp(30px,3.6vw,44px);font-weight:600"><span data-l="ar">باختصار</span><span data-l="en">The short version</span></h2></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap"><a href="assets/Fadi-Elamin-Bio.pdf" target="_blank" class="btn btn-primary blueprint" style="padding:12px 22px;font-size:16px;color:#0a0b0d"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span data-l="ar">تحميل السيرة الذاتية ↓</span><span data-l="en">Download bio ↓</span></a><a href="#track" class="btn btn-secondary" style="padding:12px 22px;font-size:16px;color:var(--color-text)" style-hover="background:rgba(148,188,227,.1)"><span data-l="ar">تصفّح المسيرة</span><span data-l="en">Browse my career</span></a></div></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));border-top:1px solid var(--color-divider);border-inline-start:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider)">
+      <div style="padding:28px 24px;border-inline-end:1px solid var(--color-divider);display:flex;flex-direction:column;gap:10px"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">01 — WHO</div><div style="font-size:21px;font-weight:600"><span data-l="ar">من أنا</span><span data-l="en">Who I am</span></div><div style="font-size:15.5px;line-height:1.75;color:rgba(232,235,238,.72);text-wrap:pretty"><span data-l="ar">مؤسس ورئيس تنفيذي لـ My Skies Aviation في دبي، ومستشار طيران وأعمال معتمد بخبرة تتجاوز 12 عاماً، وحاصل على ماجستير سلامة وأمن الطيران.</span><span data-l="en">Founder &amp; CEO of My Skies Aviation in Dubai, certified aviation and business consultant with 12+ years of experience and an MSc in Aviation Safety &amp; Security.</span></div></div>
+      <div style="padding:28px 24px;border-inline-end:1px solid var(--color-divider);display:flex;flex-direction:column;gap:10px"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">02 — WHAT</div><div style="font-size:21px;font-weight:600"><span data-l="ar">ماذا أقدّم</span><span data-l="en">What I offer</span></div><div style="font-size:15.5px;line-height:1.75;color:rgba(232,235,238,.72);text-wrap:pretty"><span data-l="ar">تكامل منظومات الدرون، التصنيع، استشارات المجال الجوي وBVLOS وU-Space، حلول الذكاء الاصطناعي، والتدريب.</span><span data-l="en">UAV systems integration, manufacturing, airspace, BVLOS and U-Space advisory, AI solutions, and training.</span></div></div>
+      <div style="padding:28px 24px;border-inline-end:1px solid var(--color-divider);display:flex;flex-direction:column;gap:10px"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">03 — WITH WHOM</div><div style="font-size:21px;font-weight:600"><span data-l="ar">لمن</span><span data-l="en">For whom</span></div><div style="font-size:15.5px;line-height:1.75;color:rgba(232,235,238,.72);text-wrap:pretty"><span data-l="ar">الجهات الحكومية، هيئات الطيران المدني، البنية التحتية الحيوية، والشركات التي تريد تحويل التقنية إلى قدرة تشغيلية.</span><span data-l="en">Government entities, civil aviation authorities, critical infrastructure, and companies turning technology into operational capability.</span></div></div>
+      <div style="padding:28px 24px;border-inline-end:1px solid var(--color-divider);display:flex;flex-direction:column;gap:10px"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">04 — HOW</div><div style="font-size:21px;font-weight:600"><span data-l="ar">كيف نبدأ</span><span data-l="en">How to start</span></div><div style="font-size:15.5px;line-height:1.75;color:rgba(232,235,238,.72);text-wrap:pretty"><span data-l="ar">احجز استشارة، نحدد المهمة معاً، ثم نبني خطة قابلة للتنفيذ من الفكرة حتى التشغيل.</span><span data-l="en">Book a consultation, we define the mission together, then build an executable plan from idea to operation.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:64px;align-items:start">
+    <div data-reveal=""><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">01 / ABOUT ME</div><h2 style="margin:0;font-size:clamp(40px,5.5vw,76px);line-height:1.05;font-weight:600;text-wrap:balance"><span data-l="ar">الطيران والدرون <span style="color:#94bce3">×</span> الاستراتيجية</span><span data-l="en">AVIATION <span style="color:#94bce3">×</span> STRATEGY</span></h2></div>
+    <div data-reveal="" style="display:flex;flex-direction:column;gap:20px;font-size:clamp(18px,1.6vw,21px);line-height:1.8">
+      <p style="margin:0;text-wrap:pretty"><span data-l="ar">بدأت مشغّلاً للدرون في الميدان، ثم قدت مشاريع درون الإنقاذ البحري والإطفاء مع الدفاع المدني في الإمارات، واليوم أقود <strong>My Skies Aviation</strong> كمكامل أنظمة UAV واستشارات طيران من دبي.</span><span data-l="en">I started as a drone operator in the field, went on to lead marine-rescue and firefighting drone programmes with UAE Civil Defense, and today run <strong>My Skies Aviation</strong>, a UAV systems integrator and aviation consultancy based in Dubai.</span></p>
+      <p style="margin:0;color:rgba(232,235,238,.66);text-wrap:pretty"><span data-l="ar">أعمل مع الجهات الحكومية والعسكرية والشركات التي تريد أن تحوّل التقنية إلى قدرة تشغيلية حقيقية: نحدد المهمة، نختار المنظومة، نبني الإطار التنظيمي، وندرّب الفريق حتى يطير.</span><span data-l="en">I work with government, defense and private organisations that want to turn technology into real operational capability: define the mission, choose the system, build the regulatory framework, and train the team until it flies.</span></p>
+    </div>
+  </div>
+  <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));margin-top:72px;border-top:1px solid var(--color-divider)">
+    <div style="padding:28px 24px 0 0;padding-inline:0 24px"><div style="font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3">2011 — KHARTOUM</div><div style="font-size:17px;line-height:1.7;margin-top:10px;color:rgba(232,235,238,.66)"><span data-l="ar">أول شركة خاصة بي في تنظيم الفعاليات، ومدير مشاريع في Bata.</span><span data-l="en">My first company in events, and project manager at Bata.</span></div></div>
+    <div style="padding:28px 24px 0;border-inline-start:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3">2015 — DUBAI</div><div style="font-size:17px;line-height:1.7;margin-top:10px;color:rgba(232,235,238,.66)"><span data-l="ar">مشغّل درون، ثم مدير مشاريع UAV ومكافحة الدرون.</span><span data-l="en">Drone operator, then UAV and anti-UAV projects manager.</span></div></div>
+    <div style="padding:28px 24px 0;border-inline-start:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3">NOW — GCC · AFRICA · EUROPE</div><div style="font-size:17px;line-height:1.7;margin-top:10px;color:rgba(232,235,238,.66)"><span data-l="ar">شراكات مع حكومات الخليج ومؤسسات أفريقية ومزودي تقنية دوليين.</span><span data-l="en">Partnerships with GCC governments, African institutions and international technology providers.</span></div></div>
+  </div>
+</section>
+<section id="track" style="border-top:1px solid var(--color-divider);background:#0d0f12">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+    <div data-reveal="" style="margin-bottom:24px"><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">02 / TRACK RECORD</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">سجل الإنجازات</span><span data-l="en">Track record</span></h2></div>
+    <div style="border-top:1px solid var(--color-divider)">
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:32px;padding:48px 0;border-bottom:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.04)">
+      <div><div style="display:flex;gap:16px;align-items:baseline;font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3"><span>01</span><span>2020 — NOW</span></div>
+        <h3 style="margin:12px 0 0;font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(34px,4.4vw,60px);line-height:1;font-weight:600;text-transform:uppercase"><span data-l="ar">المؤسس والرئيس التنفيذي</span><span data-l="en">Founder & CEO</span></h3>
+        <div style="margin-top:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap"><a href="http://www.myskies.net" target="_blank" class="btn btn-secondary" style="color:var(--color-text);padding:8px 14px" style-hover="background:rgba(148,188,227,.1)">My Skies Aviation ↗</a><span style="font-size:14px;color:rgba(232,235,238,.66)">Dubai</span></div></div>
+      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:17px;line-height:1.7;align-self:center"><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">مكامل أنظمة UAV واستشارات طيران بست وحدات أعمال متكاملة</span><span data-l="en">UAV systems integrator and aviation consultancy across six integrated units</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">حلول طيران ودرون وتدريب وصلت إلى أكثر من 20 دولة</span><span data-l="en">Aviation, drone and training solutions delivered to 20+ countries</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">10% من الإيرادات السنوية تُعاد للبحث والتطوير مع الجامعات</span><span data-l="en">10% of annual turnover reinvested in R&D with universities</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">تدريب تكتيكي لطياري الدرون ومكافحة الدرون بالشراكة مع CRI (الولايات المتحدة)</span><span data-l="en">Tactical drone-pilot and counter-UAV training with CRI Tactical Drone Academy (USA)</span></span></li></ul>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:32px;padding:48px 0;border-bottom:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.04)">
+      <div><div style="display:flex;gap:16px;align-items:baseline;font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3"><span>02</span><span>2015 — 2021</span></div>
+        <h3 style="margin:12px 0 0;font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(34px,4.4vw,60px);line-height:1;font-weight:600;text-transform:uppercase"><span data-l="ar">من مشغّل درون إلى مدير مشاريع</span><span data-l="en">Operator → Projects Manager</span></h3>
+        <div style="margin-top:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="tag tag-outline" style="color:var(--color-text);border-color:var(--color-divider)">Knowledge Technology Systems</span><span style="font-size:14px;color:rgba(232,235,238,.66)">Dubai</span></div></div>
+      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:17px;line-height:1.7;align-self:center"><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">قيادة مشاريع درون الإنقاذ البحري والإطفاء مع الدفاع المدني الإماراتي</span><span data-l="en">Led marine-rescue and firefighting drone programmes with UAE Civil Defense</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">درون صناعية وعسكرية وشرطية وأنظمة مكافحة الدرون</span><span data-l="en">Industrial, military and police drones, and anti-UAV systems</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">إدارة المشاريع من النطاق والميزانية حتى التسليم</span><span data-l="en">Owned projects end to end: scope, budget, vendors and delivery</span></span></li></ul>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:32px;padding:48px 0;border-bottom:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.04)">
+      <div><div style="display:flex;gap:16px;align-items:baseline;font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3"><span>03</span><span>2019 — NOW</span></div>
+        <h3 style="margin:12px 0 0;font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(34px,4.4vw,60px);line-height:1;font-weight:600;text-transform:uppercase"><span data-l="ar">مستشار أول للطيران والأعمال</span><span data-l="en">Senior Aviation Consultant</span></h3>
+        <div style="margin-top:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span class="tag tag-outline" style="color:var(--color-text);border-color:var(--color-divider)">MENAHORN Consult</span><span style="font-size:14px;color:rgba(232,235,238,.66)">UAE</span></div></div>
+      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:17px;line-height:1.7;align-self:center"><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">استشارات متخصصة في الطيران والأعمال</span><span data-l="en">Specialist aviation and business consultancy</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">زيادة سنوية في الأرباح بنسبة 36%</span><span data-l="en">Produced 36% annual profit increases</span></span></li></ul>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:32px;padding:48px 0;border-bottom:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.04)">
+      <div><div style="display:flex;gap:16px;align-items:baseline;font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3"><span>04</span><span>2018 — NOW</span></div>
+        <h3 style="margin:12px 0 0;font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(34px,4.4vw,60px);line-height:1;font-weight:600;text-transform:uppercase"><span data-l="ar">المدير الإقليمي</span><span data-l="en">Regional Director</span></h3>
+        <div style="margin-top:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap"><a href="https://www.oxfordaerospace.com/international-directors-board/" target="_blank" class="btn btn-secondary" style="color:var(--color-text);padding:8px 14px" style-hover="background:rgba(148,188,227,.1)">Oxford Aerospace Academy ↗</a><span style="font-size:14px;color:rgba(232,235,238,.66)">UAE & MENA</span></div></div>
+      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:17px;line-height:1.7;align-self:center"><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">تمثيل الأكاديمية وبناء الشراكات مع المؤسسات التعليمية</span><span data-l="en">Represents the academy and builds partnerships with education institutions</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">عضو مجلس المديرين الدولي</span><span data-l="en">Member of the International Directors Board</span></span></li></ul>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:32px;padding:48px 0;border-bottom:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.04)">
+      <div><div style="display:flex;gap:16px;align-items:baseline;font-family:'Barlow Condensed';font-size:14px;letter-spacing:.16em;color:#94bce3"><span>05</span><span>2021 — NOW</span></div>
+        <h3 style="margin:12px 0 0;font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(34px,4.4vw,60px);line-height:1;font-weight:600;text-transform:uppercase"><span data-l="ar">المدير العام</span><span data-l="en">Managing Director</span></h3>
+        <div style="margin-top:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap"><a href="http://www.outoftheboxtech.ae" target="_blank" class="btn btn-secondary" style="color:var(--color-text);padding:8px 14px" style-hover="background:rgba(148,188,227,.1)">Out Of the Box Technologies ↗</a><span style="font-size:14px;color:rgba(232,235,238,.66)">Dubai</span></div></div>
+      <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:17px;line-height:1.7;align-self:center"><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">تحقيق أهداف الإيرادات الإقليمية وتجاوزها</span><span data-l="en">Generated and exceeded regional revenue goals</span></span></li><li style="display:flex;gap:14px"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span><span data-l="ar">تطوير منتجات مستقبلية مبنية على أبحاث السوق</span><span data-l="en">Developed future product offerings from in-depth market research</span></span></li></ul>
+    </div>
+    </div>
+  </div>
+</section>
+<section id="services" style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+  <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:32px;align-items:end;margin-bottom:56px">
+    <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">03 / WHAT I DO</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">ماذا أقدّم</span><span data-l="en">What I do</span></h2></div>
+    <p style="margin:0;font-size:17px;line-height:1.8;color:rgba(232,235,238,.66);text-wrap:pretty"><span data-l="ar">أربط الحكومات بشركاء التقنية العالميين لبناء منظومات درون آمنة وقابلة للتوسع ومتوافقة مع الأنظمة، من الفكرة حتى التشغيل الميداني.</span><span data-l="en">I connect governments with global technology partners to build secure, scalable and compliant drone ecosystems — from concept to field operation.</span></p>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:28px">
+    <div data-reveal="" class="card blueprint" style="padding:32px;background:transparent" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">S.01 — UAV SYSTEMS</div>
+      <h3 style="margin:14px 0 10px;font-size:26px;font-weight:600"><span data-l="ar">تكامل أنظمة الطائرات بدون طيار</span><span data-l="en">UAV systems integration</span></h3>
+      <p style="margin:0;font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66)"><span data-l="ar">تصميم وتكامل حلول متكاملة للقطاعات المدنية والتجارية والدفاعية: المنصة، الحمولة، الحساسات، المحطة الأرضية، والتدريب.</span><span data-l="en">Turnkey design and integration for civil, commercial and defense programmes: platform, payload, sensors, ground station and training.</span></p></div>
+    <div data-reveal="" class="card blueprint" style="padding:32px;background:transparent" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">S.02 — DEFENSE &amp; ANTI-UAV</div>
+      <h3 style="margin:14px 0 10px;font-size:26px;font-weight:600"><span data-l="ar">الدفاع والأمن ومكافحة الدرون</span><span data-l="en">Defense, security &amp; counter-UAV</span></h3>
+      <p style="margin:0;font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66)"><span data-l="ar">أنظمة القيادة والسيطرة، الكشف والتتبع والتشويش على الدرون المعادية، وحلول للشرطة والجيش والدفاع المدني.</span><span data-l="en">Command-and-control, detection, tracking and jamming of hostile drones, for police, military and civil defense.</span></p></div>
+    <div data-reveal="" class="card blueprint" style="padding:32px;background:transparent" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">S.03 — AIRSPACE &amp; REGULATION</div>
+      <h3 style="margin:14px 0 10px;font-size:26px;font-weight:600"><span data-l="ar">استشارات المجال الجوي والتنظيم</span><span data-l="en">Airspace &amp; regulatory advisory</span></h3>
+      <p style="margin:0;font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66)"><span data-l="ar">تقديم المشورة لهيئات الطيران المدني في عمليات BVLOS وتطبيق UTM/U-Space وسياسات المجال الجوي المستقبلية.</span><span data-l="en">Advising civil aviation authorities on BVLOS operations, UTM/U-Space implementation and future-ready airspace policy.</span></p></div>
+    <div data-reveal="" class="card blueprint" style="padding:32px;background:transparent" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">S.04 — AI · IOT · BLOCKCHAIN</div>
+      <h3 style="margin:14px 0 10px;font-size:26px;font-weight:600"><span data-l="ar">التقنيات الناشئة</span><span data-l="en">Emerging technology</span></h3>
+      <p style="margin:0;font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66)"><span data-l="ar">توظيف الذكاء الاصطناعي وإنترنت الأشياء والبلوك تشين في المراقبة الجوية الذكية والمدن الذكية والتنقل الجوي المتقدم.</span><span data-l="en">Applying AI, IoT and blockchain to smart aerial monitoring, smart cities and advanced air mobility.</span></p></div>
+    <div data-reveal="" class="card blueprint" style="padding:32px;background:transparent" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">S.05 — BUSINESS &amp; AVIATION ADVISORY</div>
+      <h3 style="margin:14px 0 10px;font-size:26px;font-weight:600"><span data-l="ar">استشارات الأعمال والطيران</span><span data-l="en">Business &amp; aviation consulting</span></h3>
+      <p style="margin:0;font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66)"><span data-l="ar">مستشار أعمال معتمد: استراتيجيات النمو، دخول الأسواق، الشراكات الحكومية، والتفاوض على العقود في قطاع الطيران.</span><span data-l="en">Certified business consultant: growth strategy, market entry, government partnerships and contract negotiation in aviation.</span></p></div>
+    <div data-reveal="" class="card blueprint" style="padding:32px;background:transparent" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">S.06 — TRAINING &amp; MENTORSHIP</div>
+      <h3 style="margin:14px 0 10px;font-size:26px;font-weight:600"><span data-l="ar">التدريب والإرشاد</span><span data-l="en">Training &amp; mentorship</span></h3>
+      <p style="margin:0;font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66)"><span data-l="ar">تدريب طياري الدرون ومكافحة الدرون، وإرشاد رواد الأعمال مع صندوق محمد بن راشد لدعم المشاريع الصغيرة والمتوسطة.</span><span data-l="en">Drone-pilot and counter-UAV training, and mentoring founders with the Mohammed Bin Rashid Fund for SME Development.</span></p></div>
+  </div>
+  <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:56px;margin-top:96px;padding-top:56px;border-top:1px solid var(--color-divider)">
+    <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:18px">WORK WITH ME AS</div>
+      <div style="display:flex;flex-direction:column"><div style="font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(28px,3.2vw,44px);font-weight:600;line-height:1.25;padding:6px 0;transition:color .25s,padding .25s" style-hover="color:#94bce3;padding-inline-start:12px"><span data-l="ar">استشاري طيران وأعمال</span><span data-l="en">Aviation & Business Consultant</span></div><div style="font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(28px,3.2vw,44px);font-weight:600;line-height:1.25;padding:6px 0;transition:color .25s,padding .25s" style-hover="color:#94bce3;padding-inline-start:12px"><span data-l="ar">مستشار ومجلس استشاري</span><span data-l="en">Advisor / Advisory Board</span></div><div style="font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(28px,3.2vw,44px);font-weight:600;line-height:1.25;padding:6px 0;transition:color .25s,padding .25s" style-hover="color:#94bce3;padding-inline-start:12px"><span data-l="ar">مكامل أنظمة UAV</span><span data-l="en">UAV Systems Integrator</span></div><div style="font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(28px,3.2vw,44px);font-weight:600;line-height:1.25;padding:6px 0;transition:color .25s,padding .25s" style-hover="color:#94bce3;padding-inline-start:12px"><span data-l="ar">متحدث</span><span data-l="en">Speaker</span></div><div style="font-family:'Barlow Condensed','IBM Plex Sans Arabic';font-size:clamp(28px,3.2vw,44px);font-weight:600;line-height:1.25;padding:6px 0;transition:color .25s,padding .25s" style-hover="color:#94bce3;padding-inline-start:12px"><span data-l="ar">مرشد ومدرب</span><span data-l="en">Mentor & Trainer</span></div></div></div>
+    <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:18px">EXPERTISE</div>
+      <div dir="ltr" style="display:flex;flex-wrap:wrap;gap:10px"><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">UAV / UAS</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Anti-UAV</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">BVLOS</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">UTM / U-Space</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Drone-in-a-Box</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Advanced Air Mobility</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Aviation Safety & Security</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Civil Aviation</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Defense & Intelligence</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Artificial Intelligence</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">IoT</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Blockchain</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Business Development</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Contract Negotiation</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Project Management</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Stakeholder Engagement</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Government Partnerships</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Training</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Smart Cities</span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3">Precision Agriculture</span></div>
+      <p style="margin:28px 0 0;font-size:16px;line-height:1.8;color:rgba(232,235,238,.66)"><span data-l="ar">أبدأ كل تعاون بفهم المهمة والجهة أولاً، ثم نبني خطة قابلة للتنفيذ ونقيس النتائج على المدى الطويل.</span><span data-l="en">Every engagement starts with understanding the mission and the organisation, then an executable plan with results measured over the long term.</span></p></div>
+  </div>
+</section>
+
+<section id="ai" style="border-top:1px solid var(--color-divider);position:relative;overflow:hidden">
+  <div style="position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(148,188,227,.14) 1px,transparent 1px);background-size:28px 28px;mask-image:linear-gradient(180deg,transparent,#000 20%,#000 80%,transparent);-webkit-mask-image:linear-gradient(180deg,transparent,#000 20%,#000 80%,transparent)"></div>
+  <div style="position:relative;max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:32px;align-items:end;margin-bottom:56px">
+      <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">04 / INNOVATION &amp; AI</div><h2 style="margin:0;font-size:clamp(40px,5.5vw,72px);line-height:1.05;font-weight:600"><span data-l="ar">الابتكار <span style="color:#94bce3">×</span> الذكاء الاصطناعي</span><span data-l="en">INNOVATION <span style="color:#94bce3">×</span> AI</span></h2></div>
+      <p style="margin:0;font-size:17px;line-height:1.8;color:rgba(232,235,238,.7);text-wrap:pretty"><span data-l="ar">الذكاء الاصطناعي ينقل الدرون من كاميرا في الجو إلى منظومة ترصد وتفهم وتدعم القرار. اختر حالة استخدام وشاهد خط المعالجة يعمل من الرصد حتى التنفيذ.</span><span data-l="en">AI turns a drone from a camera in the sky into a system that senses, understands and supports decisions. Pick a use case and watch the pipeline run from sensing to action.</span></p>
+    </div>
+    <div data-reveal="" style="display:flex;flex-wrap:wrap;gap:28px;align-items:stretch">
+      <div style="flex:1 1 300px;min-width:0;display:flex;flex-direction:column;border-top:1px solid var(--color-divider)">
+        <sc-for list="{{ aiCases }}" as="c" hint-placeholder-count="4">
+          <button onClick="{{ c.pick }}" style="all:unset;cursor:pointer;position:relative;display:flex;flex-direction:column;gap:8px;padding:24px 16px;border-bottom:1px solid var(--color-divider);background:{{ c.bg }};transition:background .25s" style-hover="background:rgba(116,157,196,.08)">
+            <span dir="ltr" style="display:flex;gap:12px;font-family:'Barlow Condensed';font-size:13px;letter-spacing:.16em;color:{{ c.col }}"><span>{{ c.num }}</span><span>{{ c.code }}</span></span>
+            <span style="font-size:20px;font-weight:600;color:var(--color-text);line-height:1.4">{{ c.title }}</span>
+            <span style="position:absolute;bottom:-1px;inset-inline-start:0;height:2px;width:{{ c.prog }};background:#94bce3;transition:width .9s linear"></span>
+          </button>
+        </sc-for>
+      </div>
+      <div class="blueprint" style="flex:2.2 1 480px;min-width:0;border-color:rgba(148,188,227,.3);display:flex;flex-direction:column"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <div dir="ltr" style="display:flex;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:1px solid var(--color-divider);font-family:'Barlow Condensed';font-size:13px;letter-spacing:.16em;color:#b5d9fd"><span>AI VISION · {{ ai.code }}</span><span style="animation:fe-pulse 1.4s infinite">● INFERENCE</span></div>
+        <div style="position:relative;aspect-ratio:4/3;overflow:hidden;background:#14171b">
+          <img src="{{ ai.img }}" alt="{{ ai.title }}" style="width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.82) contrast(1.05)">
+          <div style="position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(148,188,227,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(148,188,227,.07) 1px,transparent 1px);background-size:40px 40px"></div>
+          <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none"><div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 0%,rgba(148,188,227,.2) 50%,transparent 100%);animation:fe-scan 3s linear infinite"></div></div>
+          <sc-for list="{{ ai.boxes }}" as="b" hint-placeholder-count="2">
+            <div style="position:absolute;left:{{ b.x }};top:{{ b.y }};width:{{ b.w }};height:{{ b.h }};border:1px solid #b5d9fd;box-shadow:0 0 0 1px rgba(10,11,13,.35);opacity:{{ b.op }};transform:scale({{ b.sc }});transition:opacity .5s {{ b.delay }},transform .5s {{ b.delay }}">
+              <span dir="ltr" style="position:absolute;bottom:100%;left:-1px;margin-bottom:2px;white-space:nowrap;background:#94bce3;color:#0a0b0d;font-family:'Barlow Condensed';font-size:12px;font-weight:600;letter-spacing:.1em;padding:3px 8px;opacity:{{ b.lop }};transition:opacity .4s">{{ b.lab }} · {{ b.cf }}</span>
+            </div>
+          </sc-for>
+          <div style="position:absolute;inset:auto 0 0 0;padding:40px 18px 16px;background:linear-gradient(0deg,rgba(10,11,13,.95),rgba(10,11,13,0));opacity:{{ ai.outOp }};transform:translateY({{ ai.outY }});transition:opacity .5s,transform .5s">
+            <div dir="ltr" style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.18em;color:#94bce3;margin-bottom:4px">DECISION SUPPORT</div>
+            <div style="font-size:18px;font-weight:600;color:#e8ebee">{{ ai.out }}</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr))">
+          <sc-for list="{{ aiSteps }}" as="st" hint-placeholder-count="4">
+            <div style="padding:14px 12px;border-top:2px solid {{ st.bd }};background:{{ st.bg }};transition:background .4s,border-color .4s;display:flex;flex-direction:column;gap:2px"><span dir="ltr" style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.16em;color:{{ st.col }};text-align:start">{{ st.code }}</span><span style="font-size:15px;font-weight:600;color:{{ st.col2 }}">{{ st.label }}</span></div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));margin-top:72px;border-top:1px solid var(--color-divider);border-inline-start:1px solid var(--color-divider)">
+      <div style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:76px;font-weight:600;line-height:.9;color:#b5d9fd"><span data-count="10">10</span>%</div><div style="font-size:15.5px;line-height:1.7;color:rgba(232,235,238,.75);margin-top:12px"><span data-l="ar">من الإيرادات السنوية لـ My Skies تُعاد للبحث والتطوير بالشراكة مع الجامعات</span><span data-l="en">of My Skies' annual turnover is reinvested in R&amp;D with universities</span></div></div>
+      <div style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider);transition:background .3s" style-hover="background:rgba(116,157,196,.07)"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">AI · VISION</div><div style="font-size:22px;font-weight:600;margin-top:12px"><span data-l="ar">الذكاء الاصطناعي</span><span data-l="en">Artificial intelligence</span></div><div style="font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66);margin-top:8px;text-wrap:pretty"><span data-l="ar">رؤية حاسوبية لكشف الأهداف وتصنيفها، وتحليل الصور متعددة الأطياف في الزراعة الدقيقة.</span><span data-l="en">Computer vision to detect and classify targets, and multispectral analysis for precision agriculture.</span></div></div>
+      <div style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider);transition:background .3s" style-hover="background:rgba(116,157,196,.07)"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">IOT · SENSORS</div><div style="font-size:22px;font-weight:600;margin-top:12px"><span data-l="ar">إنترنت الأشياء</span><span data-l="en">Internet of things</span></div><div style="font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66);margin-top:8px;text-wrap:pretty"><span data-l="ar">ربط الدرون والمحطات والحساسات الأرضية في منظومة مراقبة واحدة للمدن الذكية والمنشآت.</span><span data-l="en">Drones, docks and ground sensors linked into one monitoring network for smart cities and sites.</span></div></div>
+      <div style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider);transition:background .3s" style-hover="background:rgba(116,157,196,.07)"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">BLOCKCHAIN · DATA</div><div style="font-size:22px;font-weight:600;margin-top:12px"><span data-l="ar">البلوك تشين</span><span data-l="en">Blockchain</span></div><div style="font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66);margin-top:8px;text-wrap:pretty"><span data-l="ar">سجلات رحلات وبيانات موثوقة تدعم الامتثال والتعريف عن بعد.</span><span data-l="en">Trusted flight and data records that support compliance and remote ID.</span></div></div>
+      <div style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider);transition:background .3s" style-hover="background:rgba(116,157,196,.07)"><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.18em;color:#94bce3">AUTONOMY · BVLOS</div><div style="font-size:22px;font-weight:600;margin-top:12px"><span data-l="ar">التشغيل الذاتي</span><span data-l="en">Autonomy</span></div><div style="font-size:15.5px;line-height:1.8;color:rgba(232,235,238,.66);margin-top:8px;text-wrap:pretty"><span data-l="ar">محطات Drone-in-a-Box وعمليات BVLOS تُطلق الدرون وتستعيده وتشحنه دون طيار في الموقع.</span><span data-l="en">Drone-in-a-box docks and BVLOS operations that launch, recover and recharge without an on-site pilot.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="mfg" style="border-top:1px solid var(--color-divider);background:#0d0f12">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:32px;align-items:end;margin-bottom:56px">
+      <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">05 / MANUFACTURING</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">خبرات التصنيع والإنتاج</span><span data-l="en">Manufacturing &amp; production</span></h2></div>
+      <p style="margin:0;font-size:17px;line-height:1.8;color:rgba(232,235,238,.7);text-wrap:pretty"><span data-l="ar">من الفكرة إلى منصة جاهزة للطيران: أطوّر عمليات الإنتاج وأربط التصميم والتجميع والجودة والتدريب في دورة واحدة، بالاستفادة من مبادئ Factory 4.0.</span><span data-l="en">From concept to a flight-ready platform: I develop production processes and connect design, assembly, quality and training in one cycle, drawing on Factory 4.0 principles.</span></p>
+    </div>
+    <div data-reveal="" style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(46%,160px),1fr));border-top:1px solid var(--color-divider)">
+      <sc-for list="{{ mfgSteps }}" as="m" hint-placeholder-count="6">
+        <button onClick="{{ m.pick }}" onMouseEnter="{{ m.pick }}" style="all:unset;cursor:pointer;position:relative;display:flex;flex-direction:column;gap:8px;padding:22px 16px 24px;border-inline-end:1px solid var(--color-divider);background:{{ m.bg }};transition:background .3s" style-hover="background:rgba(116,157,196,.08)">
+          <span style="position:absolute;top:-1px;inset-inline-start:0;height:2px;width:{{ m.fill }};background:#94bce3;transition:width .5s"></span>
+          <span style="display:flex;align-items:center;gap:10px"><span style="width:30px;height:30px;display:grid;place-items:center;border:1px solid {{ m.bd }};background:{{ m.dot }};color:{{ m.dotCol }};font-family:'Barlow Condensed';font-size:14px;transition:background .3s,color .3s">{{ m.num }}</span><span dir="ltr" style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.16em;color:{{ m.col }}">{{ m.code }}</span></span>
+          <span style="font-size:17px;font-weight:600;color:var(--color-text);line-height:1.35">{{ m.title }}</span>
+        </button>
+      </sc-for>
+    </div>
+    <div data-reveal="" class="blueprint" style="margin-top:28px;border-color:rgba(148,188,227,.3);display:flex;flex-wrap:wrap"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div class="duotone" style="flex:1 1 380px;min-width:0;aspect-ratio:16/10;background:#14171b;position:relative;overflow:hidden">
+        <img src="{{ mfgCur.img }}" alt="{{ mfgCur.title }}" style="width:100%;height:100%;object-fit:cover;display:block;animation:fe-zoom 1.2s ease-out both">
+        <span dir="ltr" style="position:absolute;top:14px;left:14px;z-index:2;background:#94bce3;color:#0a0b0d;font-family:'Barlow Condensed';font-size:12px;font-weight:600;letter-spacing:.14em;padding:4px 10px">STAGE {{ mfgCur.num }} / 06</span>
+      </div>
+      <div style="flex:1 1 380px;min-width:0;padding:36px;display:flex;flex-direction:column;gap:16px;justify-content:center">
+        <div dir="ltr" style="font-family:'Barlow Condensed';font-size:14px;letter-spacing:.18em;color:#94bce3;text-align:start">{{ mfgCur.code }}</div>
+        <h3 style="margin:0;font-size:clamp(28px,3vw,38px);font-weight:600;line-height:1.2">{{ mfgCur.title }}</h3>
+        <p style="margin:0;font-size:17px;line-height:1.85;color:rgba(232,235,238,.78);text-wrap:pretty">{{ mfgCur.desc }}</p>
+        <ul style="margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px">
+          <sc-for list="{{ mfgCur.pts }}" as="pt" hint-placeholder-count="3"><li style="display:flex;gap:14px;font-size:16px;line-height:1.6"><span style="color:#749dc4;font-family:'Barlow Condensed'">+</span><span>{{ pt }}</span></li></sc-for>
+        </ul>
+      </div>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:40px;margin-top:64px;align-items:start">
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--color-divider)">
+        <div style="padding:22px 16px 0 0;padding-inline:0 16px"><div style="font-family:'Barlow Condensed';font-size:48px;font-weight:600;line-height:1"><span data-count="7">7</span></div><div style="font-size:14px;color:rgba(232,235,238,.66);margin-top:6px"><span data-l="ar">عائلات منصات UAV</span><span data-l="en">UAV platform families</span></div></div>
+        <div style="padding:22px 16px 0;border-inline-start:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:48px;font-weight:600;line-height:1">ISO ×3</div><div style="font-size:14px;color:rgba(232,235,238,.66);margin-top:6px">9001 · 14001 · 45001</div></div>
+        <div style="padding:22px 16px 0;border-inline-start:1px solid var(--color-divider)"><div style="font-family:'Barlow Condensed';font-size:48px;font-weight:600;line-height:1"><span data-count="10">10</span>%</div><div style="font-size:14px;color:rgba(232,235,238,.66);margin-top:6px"><span data-l="ar">للبحث والتطوير</span><span data-l="en">Reinvested in R&amp;D</span></div></div>
+      </div>
+      <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:16px">CIVIL APPLICATIONS</div>
+        <div style="display:flex;flex-wrap:wrap;gap:10px"><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">الإطفاء</span><span data-l="en">Firefighting</span></span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">الإنقاذ البحري</span><span data-l="en">Marine rescue</span></span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">الاستجابة للطوارئ</span><span data-l="en">Emergency response</span></span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">الزراعة الدقيقة</span><span data-l="en">Precision agriculture</span></span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">المسح الجوي</span><span data-l="en">Aerial survey</span></span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">فحص المنشآت</span><span data-l="en">Infrastructure inspection</span></span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">المراقبة الذاتية</span><span data-l="en">Autonomous monitoring</span></span><span class="tag tag-outline" style="color:rgba(232,235,238,.85);border-color:var(--color-divider);padding:8px 14px;font-size:14px;transition:background .2s,border-color .2s" style-hover="background:rgba(148,188,227,.12);border-color:#94bce3"><span data-l="ar">التوصيل والتنقل الجوي</span><span data-l="en">Delivery &amp; air mobility</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" style="border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);background:#0d0f12">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+    <div data-reveal="" style="margin-bottom:48px"><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">06 / FLAGSHIP PROJECTS</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">مشاريع قدتها</span><span data-l="en">Programmes I've led</span></h2></div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:40px;align-items:start">
+      <div style="display:flex;flex-direction:column;border-top:1px solid var(--color-divider)">
+        <sc-for list="{{ projects }}" as="p" hint-placeholder-count="7">
+          <button onClick="{{ p.select }}" style="all:unset;cursor:pointer;display:grid;grid-template-columns:52px 1fr auto;gap:16px;align-items:center;padding:20px 8px;border-bottom:1px solid var(--color-divider);background:{{ p.bg }};transition:background .25s" style-hover="background:rgba(116,157,196,.08)">
+            <span style="font-family:'Barlow Condensed';font-size:15px;letter-spacing:.1em;color:{{ p.numColor }}">{{ p.num }}</span>
+            <span style="display:flex;flex-direction:column;gap:4px"><span style="font-size:20px;font-weight:600;color:var(--color-text)">{{ p.title }}</span><span style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.14em;color:rgba(232,235,238,.5)">{{ p.en }}</span></span>
+            <span style="font-size:18px;color:{{ p.numColor }}">{{ p.arrow }}</span>
+          </button>
+        </sc-for>
+      </div>
+      <div id="projDetail" class="blueprint" style="position:sticky;top:100px;border-color:rgba(148,188,227,.3)">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <div class="duotone" style="aspect-ratio:16/10;background:#14171b"><img src="{{ cur.img }}" alt="{{ cur.title }}" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="padding:32px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+            <span style="font-family:'Barlow Condensed';font-size:14px;letter-spacing:.18em;color:#94bce3">PROJECT {{ cur.num }} · {{ cur.year }}</span>
+            <span class="tag tag-outline" style="color:#b5d9fd;border-color:rgba(148,188,227,.4)">{{ cur.role }}</span>
+          </div>
+          <h3 style="margin:18px 0 6px;font-size:clamp(28px,3vw,38px);font-weight:600;line-height:1.2">{{ cur.title }}</h3>
+          <div style="font-size:15px;color:#94bce3;margin-bottom:16px">{{ cur.client }}</div>
+          <p style="margin:0;font-size:16.5px;line-height:1.85;color:rgba(232,235,238,.75);text-wrap:pretty">{{ cur.desc }}</p>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:22px">
+            <sc-for list="{{ cur.tags }}" as="t" hint-placeholder-count="3"><span class="tag tag-outline" style="color:rgba(232,235,238,.75);border-color:var(--color-divider)">{{ t }}</span></sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="field" style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+  <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:32px;align-items:end;margin-bottom:48px">
+    <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">07 / FROM THE FIELD</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">من الميدان</span><span data-l="en">From the field</span></h2></div>
+    <p style="margin:0;font-size:17px;line-height:1.8;color:rgba(232,235,238,.66);text-wrap:pretty"><span data-l="ar">اختبارات ليلية لأنظمة Drone-in-a-Box، تشغيل ميداني، ومعدات مكافحة الدرون.</span><span data-l="en">Night trials of drone-in-a-box systems, field operations and counter-UAV equipment.</span></p>
+  </div>
+  <div data-reveal="" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px">
+    <sc-for list="{{ galCats }}" as="gc" hint-placeholder-count="5"><button onClick="{{ gc.pick }}" style="all:unset;cursor:pointer;display:flex;gap:8px;align-items:center;padding:9px 16px;font-size:15px;border:1px solid {{ gc.border }};color:{{ gc.color }};background:{{ gc.bg }};transition:background .2s,color .2s"><span>{{ gc.label }}</span><span style="font-family:'Barlow Condensed';font-size:13px;opacity:.75">{{ gc.count }}</span></button></sc-for>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(46%,170px),1fr));grid-auto-rows:130px;grid-auto-flow:dense;gap:10px">
+    <sc-for list="{{ gallery }}" as="g" hint-placeholder-count="12">
+      <button onClick="{{ g.open }}" class="duotone" style="all:unset;cursor:zoom-in;position:relative;overflow:hidden;grid-row:span {{ g.rows }};grid-column:span {{ g.cols }};border:1px solid var(--color-divider);background:#14171b;transition:border-color .3s" style-hover="border-color:rgba(148,188,227,.7)">
+        <img src="{{ g.src }}" alt="{{ g.cap }}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:scale(1.06)">
+        <span style="position:absolute;inset:auto 0 0 0;z-index:2;padding:32px 14px 12px;background:linear-gradient(0deg,rgba(10,11,13,.9),rgba(10,11,13,0));display:flex;flex-direction:column;gap:2px"><span dir="ltr" style="font-family:'Barlow Condensed';font-size:11px;letter-spacing:.16em;color:#94bce3">{{ g.tag }}</span><span style="font-size:14px;color:#e8ebee;line-height:1.4">{{ g.cap }}</span></span>
+      </button>
+    </sc-for>
+  </div>
+  <sc-if value="{{ galHasMore }}" hint-placeholder-val="{{ false }}"><div style="display:flex;justify-content:center;margin-top:20px"><button onClick="{{ galToggle }}" class="btn btn-secondary" style="color:var(--color-text);padding:11px 22px" style-hover="background:rgba(148,188,227,.1)">{{ galMoreLabel }}</button></div></sc-if>
+</section>
+
+<section id="media" style="border-top:1px solid var(--color-divider);background:#0d0f12">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:32px;align-items:end;margin-bottom:56px">
+      <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">08 / PODCASTS &amp; INTERVIEWS</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">الحلقات واللقاءات</span><span data-l="en">Podcasts &amp; interviews</span></h2></div>
+      <p style="margin:0;font-size:17px;line-height:1.8;color:rgba(232,235,238,.66);text-wrap:pretty"><span data-l="ar">قصتي من سودانير إلى صناعة الدرون، وكيف تتحول الطائرات بدون طيار إلى مصدر دخل للشركات وأداة لاتخاذ القرار.</span><span data-l="en">My path from Sudanair to the drone industry, and how drones become revenue and decision-making tools for businesses. Episodes are in Arabic.</span></p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:28px">
+      <sc-for list="{{ videos }}" as="v" hint-placeholder-count="4">
+        <button data-reveal="" onClick="{{ v.open }}" class="blueprint" style="all:unset;cursor:pointer;display:flex;flex-direction:column;position:relative;border:1px solid var(--color-divider);transition:border-color .3s,transform .3s" style-hover="border-color:rgba(148,188,227,.6);transform:translateY(-4px)">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <div class="duotone" style="aspect-ratio:16/9;position:relative;background:#14171b">
+            <img src="{{ v.thumb }}" alt="{{ v.title }}" style="width:100%;height:100%;object-fit:cover;filter:brightness(.8)">
+            <div style="position:absolute;inset:0;display:grid;place-items:center;z-index:2"><span style="width:58px;height:58px;border:1px solid #b5d9fd;display:grid;place-items:center;background:rgba(10,11,13,.6);color:#e8ebee;font-size:18px">▶</span></div>
+          </div>
+          <div style="padding:20px 20px 24px;display:flex;flex-direction:column;gap:10px">
+            <span style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.16em;color:#94bce3">{{ v.kind }}</span>
+            <span dir="rtl" style="font-size:17px;font-weight:600;line-height:1.6;color:var(--color-text);text-align:start">{{ v.title }}</span>
+          </div>
+        </button>
+      </sc-for>
+    </div>
+    <div data-reveal="" style="display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin:88px 0 28px">
+      <div><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:10px">INSTAGRAM · @FADIAMIIN</div><h3 style="margin:0;font-size:clamp(28px,3vw,40px);font-weight:600"><span data-l="ar">تجارب ومقاطع من الميدان</span><span data-l="en">Reels &amp; field demos</span></h3></div>
+      <a href="https://www.instagram.com/fadiamiin/" target="_blank" class="btn btn-secondary" style="color:var(--color-text)" style-hover="background:rgba(148,188,227,.1)"><span data-l="ar">تابع على إنستغرام</span><span data-l="en">Follow on Instagram</span></a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px">
+      <sc-for list="{{ insta }}" as="ig" hint-placeholder-count="4">
+        <div data-reveal="" class="blueprint" style="border-color:var(--color-divider);background:#fff;height:600px;overflow:hidden"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          <iframe src="{{ ig.src }}" loading="lazy" style="width:100%;height:100%;border:0;display:block" scrolling="no" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section id="majaal" style="border-top:1px solid var(--color-divider)">
+  <div data-reveal="" style="max-width:1280px;margin:0 auto;padding:clamp(48px,8vw,72px) clamp(18px,4.5vw,28px);display:flex;flex-wrap:wrap;gap:40px;align-items:center">
+    <figure class="blueprint duotone" style="margin:0;flex:0 0 220px;aspect-ratio:4/5;border-color:rgba(148,188,227,.35);overflow:hidden;position:relative"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><img src="assets/f-int1.jpg" alt="فادي الأمين — برنامج المجال" style="width:100%;height:100%;object-fit:cover;object-position:45% 35%;display:block"><span dir="ltr" style="position:absolute;top:10px;left:10px;z-index:2;background:#94bce3;color:#0a0b0d;font-family:'Barlow Condensed';font-size:11px;font-weight:600;letter-spacing:.14em;padding:3px 8px;display:flex;gap:6px;align-items:center"><span style="width:6px;height:6px;background:#0a0b0d;border-radius:50%;animation:fe-pulse 1.2s infinite"></span>ON AIR</span></figure>
+    <div style="flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:14px">
+      <div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3">MY SERIES · @ALMAJAALCAST</div>
+      <div style="display:flex;align-items:baseline;gap:18px;flex-wrap:wrap"><h3 style="margin:0;font-size:clamp(40px,5vw,64px);line-height:1;font-weight:600"><span data-l="ar">المجال</span><span data-l="en">AL MAJAAL</span></h3><span style="font-size:clamp(20px,2vw,24px);font-weight:600;color:#b5d9fd"><span data-l="ar">خلف كل فكرة قوية… تجربة حقيقية.</span><span data-l="en">Behind every strong idea… a real experience.</span></span></div>
+      <p style="margin:0;font-size:17px;line-height:1.85;color:rgba(232,235,238,.78);max-width:720px;text-wrap:pretty"><span data-l="ar">في سلسلة و برنامج المجال، يشارك فادي خبرته وتجربته المهنية، ويطرح تساؤلات مرتبطة بالبزنس، التكنولوجيا، والطيران، بهدف فتح مساحة حوار مع المتابعين حول مستقبل هذه القطاعات وكيفية التعامل مع متغيراتها.</span><span data-l="en">In the Al Majaal series, Fadi shares his professional experience and raises questions about business, technology and aviation, opening a conversation about the future of these sectors. Episodes are in Arabic.</span></p>
+      <div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:4px">
+        <a href="https://www.instagram.com/almajaalcast/" target="_blank" aria-label="Al Majaal on Instagram" style="width:48px;height:48px;display:grid;place-items:center;border:1px solid #94bce3;color:#b5d9fd;transition:background .2s,color .2s" style-hover="background:#94bce3;color:#0a0b0d"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        <div style="display:flex;gap:12px;flex-wrap:wrap"><span style="font-size:14px;color:#94bce3">#المجال</span><span style="font-size:14px;color:#94bce3">#ابتكار</span><span style="font-size:14px;color:#94bce3">#تكنولوجيا</span><span style="font-size:14px;color:#94bce3">#بزنس</span><span style="font-size:14px;color:#94bce3">#طيران</span><span style="font-size:14px;color:#94bce3">#ريادة_الأعمال</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="career" style="border-top:1px solid var(--color-divider)">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px);display:block">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:56px"><div style="grid-column:1/-1"><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">CREDENTIALS</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">التعليم والعضويات</span><span data-l="en">Education & memberships</span></h2></div>
+      <div>
+        <div data-reveal="" style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:20px">EDUCATION &amp; CERTIFICATIONS</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px">
+          <div data-reveal="" class="blueprint" style="padding:22px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="font-size:17px;font-weight:600;line-height:1.5"><span data-l="ar">ماجستير سلامة وأمن الطيران</span><span data-l="en">MSc Aviation Safety &amp; Security</span></div><div style="color:rgba(232,235,238,.6);font-size:14px;margin-top:6px">Emirates Aviation University · 2018</div></div>
+          <div data-reveal="" class="blueprint" style="padding:22px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="font-size:17px;font-weight:600;line-height:1.5"><span data-l="ar">بكالوريوس إدارة وعمليات الطيران</span><span data-l="en">BSc Aviation Management &amp; Operations</span></div><div style="color:rgba(232,235,238,.6);font-size:14px;margin-top:6px">Coventry University, UK · 2018</div></div>
+          <div data-reveal="" class="blueprint" style="padding:22px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="font-size:17px;font-weight:600;line-height:1.5"><span data-l="ar">بكالوريوس إدارة النقل الجوي</span><span data-l="en">BBA Air Transport Management</span></div><div style="color:rgba(232,235,238,.6);font-size:14px;margin-top:6px">Emirates Aviation University · 2015</div></div>
+          <div data-reveal="" class="blueprint" style="padding:22px"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="font-size:17px;font-weight:600;line-height:1.5"><span data-l="ar">دبلوم إدارة المشاريع الدولية</span><span data-l="en">Diploma, International Project Management</span></div><div style="color:rgba(232,235,238,.6);font-size:14px;margin-top:6px">Business Management Institute, Berlin · 2017</div></div>
+        </div>
+        <div data-reveal="" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:20px">
+          <span class="tag tag-outline" style="color:rgba(232,235,238,.8);border-color:var(--color-divider)"><span data-l="ar">مستشار أعمال معتمد</span><span data-l="en">Certified Business Consultant</span></span>
+          <span class="tag tag-outline" style="color:rgba(232,235,238,.8);border-color:var(--color-divider)">Global Governance</span>
+          <span class="tag tag-outline" style="color:rgba(232,235,238,.8);border-color:var(--color-divider)">CEO 4.0 — EDGE</span>
+          <span class="tag tag-outline" style="color:rgba(232,235,238,.8);border-color:var(--color-divider)">Factory 4.0 — EDGE</span>
+          <span class="tag tag-outline" style="color:rgba(232,235,238,.8);border-color:var(--color-divider)">ISO 9001 · 14001 · 45001 (My Skies)</span>
+        </div>
+      </div>
+      <div>
+        <div data-reveal="" style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:20px">MEMBERSHIPS &amp; COMMUNITY</div>
+        <div style="display:flex;flex-direction:column">
+          <div data-reveal="" style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--color-divider)"><span style="font-size:16px"><span data-l="ar">صندوق محمد بن راشد لدعم المشاريع الصغيرة والمتوسطة</span><span data-l="en">Mohammed Bin Rashid Fund for SME Development</span></span><span style="color:#94bce3;font-size:15px"><span data-l="ar">مرشد</span><span data-l="en">Mentor</span></span></div>
+          <div data-reveal="" style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--color-divider)"><span style="font-size:16px"><span data-l="ar">جمعية الخليج لسلامة الطيران</span><span data-l="en">Gulf Flight Safety Association</span></span><span style="color:#94bce3;font-size:15px"><span data-l="ar">عضو ومتحدث</span><span data-l="en">Member, speaker</span></span></div>
+          <div data-reveal="" style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--color-divider)"><span style="font-size:16px">Women in Aviation</span><span style="color:#94bce3;font-size:15px"><span data-l="ar">متحدث ومشارك</span><span data-l="en">Speaker</span></span></div>
+          <div data-reveal="" style="display:flex;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--color-divider)"><span style="font-size:16px"><span data-l="ar">الهلال الأحمر الإماراتي · وزارة الصحة ووقاية المجتمع</span><span data-l="en">Emirates Red Crescent · Ministry of Health &amp; Prevention</span></span><span style="color:#94bce3;font-size:15px"><span data-l="ar">مشرف متطوع</span><span data-l="en">Volunteer supervisor</span></span></div>
+        </div>
+      </div>
+      <div data-reveal="" style="display:flex;gap:28px;flex-wrap:wrap;font-size:15px;color:rgba(232,235,238,.66)"><span>العربية — Native</span><span>English — C1</span><span>Français — A2</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="stages" style="border-top:1px solid var(--color-divider);background:#0d0f12">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px)">
+    <div data-reveal="" style="margin-bottom:48px"><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">09 / ON STAGE</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">متحدث في المؤتمرات الدولية</span><span data-l="en">Speaking at international events</span></h2></div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-bottom:40px">
+      <figure class="blueprint duotone" style="margin:0;aspect-ratio:3/4;border-color:var(--color-divider);overflow:hidden;position:relative"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><img src="assets/f-stage.jpg" alt="VertiExpo Dubai 2025" style="width:100%;height:100%;object-fit:cover;object-position:30% 65%;display:block"><figcaption dir="ltr" style="position:absolute;inset:auto 0 0 0;z-index:2;padding:28px 16px 14px;background:linear-gradient(0deg,rgba(10,11,13,.92),transparent);font-family:'Barlow Condensed';font-size:14px;letter-spacing:.14em;color:#e8ebee">VERTIEXPO DUBAI 2025 · DRONETECH</figcaption></figure>
+      <figure class="blueprint duotone" style="margin:0;aspect-ratio:3/4;border-color:var(--color-divider);overflow:hidden;position:relative"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><img src="assets/f-summit.jpg" alt="Arab Aviation Summit 2021" style="width:100%;height:100%;object-fit:cover;object-position:58% 50%;display:block"><figcaption dir="ltr" style="position:absolute;inset:auto 0 0 0;z-index:2;padding:28px 16px 14px;background:linear-gradient(0deg,rgba(10,11,13,.92),transparent);font-family:'Barlow Condensed';font-size:14px;letter-spacing:.14em;color:#e8ebee">ARAB AVIATION SUMMIT 2021</figcaption></figure>
+      <figure class="blueprint duotone" style="margin:0;aspect-ratio:3/4;border-color:var(--color-divider);overflow:hidden;position:relative"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><img src="assets/f-booth.jpg" alt="My Skies Aviation stand" style="width:100%;height:100%;object-fit:cover;object-position:62% 50%;display:block"><figcaption dir="ltr" style="position:absolute;inset:auto 0 0 0;z-index:2;padding:28px 16px 14px;background:linear-gradient(0deg,rgba(10,11,13,.92),transparent);font-family:'Barlow Condensed';font-size:14px;letter-spacing:.14em;color:#e8ebee">MY SKIES AVIATION · EXHIBITION STAND</figcaption></figure>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));border-top:1px solid var(--color-divider);border-inline-start:1px solid var(--color-divider)">
+      <div data-reveal="" style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.06)"><div style="font-family:'Barlow Condensed';font-size:22px;font-weight:600;letter-spacing:.04em">AIR EXPO ABU DHABI 2024</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:8px;line-height:1.7"><span data-l="ar">متحدث في جلسة مستقبل الطيران: التنقل الجوي المتقدم والدرون والطائرات الكهربائية، إلى جانب Boeing وHoneywell</span><span data-l="en">Panelist, "The Future of Aviation: AAM, drones and electric aircraft", alongside Boeing and Honeywell</span></div></div>
+      <div data-reveal="" style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.06)"><div style="font-family:'Barlow Condensed';font-size:22px;font-weight:600;letter-spacing:.04em">IDEX — ABU DHABI</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:8px;line-height:1.7"><span data-l="ar">مشارك ومتحدث في المعرض الدولي للدفاع</span><span data-l="en">Participant and speaker, International Defence Exhibition</span></div></div>
+      <div data-reveal="" style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.06)"><div style="font-family:'Barlow Condensed';font-size:22px;font-weight:600;letter-spacing:.04em">MOBILITY LIVE ME</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:8px;line-height:1.7"><span data-l="ar">متحدث في جلسة تسريع تبني المركبات الكهربائية</span><span data-l="en">Panelist, "Driving EV Adoption"</span></div></div>
+      <div data-reveal="" style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.06)"><div style="font-family:'Barlow Condensed';font-size:22px;font-weight:600;letter-spacing:.04em">GULF FLIGHT SAFETY ASSOCIATION</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:8px;line-height:1.7"><span data-l="ar">متحدث — دبي</span><span data-l="en">Speaker — Dubai</span></div></div>
+      <div data-reveal="" style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.06)"><div style="font-family:'Barlow Condensed';font-size:22px;font-weight:600;letter-spacing:.04em">TACCC</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:8px;line-height:1.7"><span data-l="ar">متحدث بصفته المؤسس والرئيس التنفيذي لـ MySkies Aviation</span><span data-l="en">Speaker as Founder &amp; CEO, MySkies Aviation</span></div></div>
+      <div data-reveal="" style="padding:28px;border-bottom:1px solid var(--color-divider);border-inline-end:1px solid var(--color-divider)" style-hover="background:rgba(116,157,196,.06)"><div style="font-family:'Barlow Condensed';font-size:22px;font-weight:600;letter-spacing:.04em">DUBAI AIRSHOW · INTERSEC</div><div style="color:rgba(232,235,238,.66);font-size:15px;margin-top:8px;line-height:1.7"><span data-l="ar">مشاركة في مؤتمرات معرض دبي للطيران وإنترسك ومعرض المطارات</span><span data-l="en">Conference participant at Dubai Airshow, Intersec and Airport Show</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="insights" style="border-top:1px solid var(--color-divider)">
+  <div style="max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:64px">
+    <div>
+      <div data-reveal="" style="margin-bottom:40px"><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">10 / INSIGHTS</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">مقالات وتحليلات</span><span data-l="en">Articles &amp; analysis</span></h2></div>
+      <div style="display:flex;flex-direction:column;gap:24px">
+        <a data-reveal="" href="https://www.linkedin.com/in/fadiamin/recent-activity/articles/" target="_blank" class="blueprint" style="padding:28px;color:var(--color-text);display:block" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.16em;color:#94bce3">LINKEDIN ARTICLE · JUN 2025</div><div dir="ltr" style="text-align:start;font-family:'Barlow Condensed';font-size:26px;font-weight:600;margin-top:10px;line-height:1.2">Iranian Drones: A Silent Power in Offensive and Defensive Warfare</div><div style="color:#94bce3;font-size:15px;margin-top:14px"><span data-l="ar">اقرأ على لينكدإن</span><span data-l="en">Read on LinkedIn</span></div></a>
+        <a data-reveal="" href="https://www.linkedin.com/in/fadiamin/recent-activity/articles/" target="_blank" class="blueprint" style="padding:28px;color:var(--color-text);display:block" style-hover="background:rgba(116,157,196,.07)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><div style="font-family:'Barlow Condensed';font-size:13px;letter-spacing:.16em;color:#94bce3">LINKEDIN ARTICLE · APR 2025</div><div dir="ltr" style="text-align:start;font-family:'Barlow Condensed';font-size:26px;font-weight:600;margin-top:10px;line-height:1.2">Drones and the Future of Military Training: A New Paradigm</div><div style="color:#94bce3;font-size:15px;margin-top:14px"><span data-l="ar">اقرأ على لينكدإن</span><span data-l="en">Read on LinkedIn</span></div></a>
+      </div>
+    </div>
+    <div>
+      <div data-reveal="" style="margin-bottom:40px"><div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">FAQ</div><h2 style="margin:0;font-size:clamp(36px,4.5vw,56px);line-height:1.15;font-weight:600"><span data-l="ar">أسئلة شائعة عن الدرون</span><span data-l="en">Drone FAQ</span></h2></div>
+      <div style="border-top:1px solid var(--color-divider)">
+        <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="5">
+          <div style="border-bottom:1px solid var(--color-divider)">
+            <button onClick="{{ f.toggle }}" style="all:unset;cursor:pointer;width:100%;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 4px;font-size:18px;font-weight:600;color:var(--color-text)" style-hover="color:#b5d9fd"><span>{{ f.q }}</span><span style="font-family:'Barlow Condensed';font-size:24px;color:#94bce3">{{ f.sign }}</span></button>
+            <sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}"><p style="margin:0;padding:0 4px 24px;font-size:16px;line-height:1.9;color:rgba(232,235,238,.7);text-wrap:pretty">{{ f.a }}</p></sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="border-top:1px solid var(--color-divider);position:relative;overflow:hidden;background:#0d0f12">
+  <div style="position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(232,235,238,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(232,235,238,.04) 1px,transparent 1px);background-size:64px 64px"></div>
+  <div style="position:relative;max-width:1280px;margin:0 auto;padding:clamp(64px,10vw,112px) clamp(18px,4.5vw,28px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:64px">
+    <div data-reveal="">
+      <div style="font-family:'Barlow Condensed';letter-spacing:.2em;font-size:14px;color:#94bce3;margin-bottom:14px">11 / CONTACT</div>
+      <h2 style="margin:0;font-size:clamp(40px,5.5vw,72px);line-height:1.1;font-weight:600;text-wrap:balance"><span data-l="ar">لديك مشروع في الجو؟ لنتحدث.</span><span data-l="en">Have a mission in the air? Let's talk.</span></h2>
+      <p style="margin:24px 0 0;font-size:17px;line-height:1.8;color:rgba(232,235,238,.66);max-width:480px"><span data-l="ar">استشارات، حجز اجتماع، شراكات، أو دعوة للتحدث في مؤتمر أو بودكاست. أرسل التفاصيل وسأتواصل معك شخصياً.</span><span data-l="en">Consulting, meetings, partnerships, or an invitation to speak. Send the details and I'll get back to you personally.</span></p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:40px">
+        <a href="https://www.linkedin.com/in/fadiamin/" target="_blank" class="blueprint" style="padding:18px;color:var(--color-text);display:flex;flex-direction:column;gap:4px" style-hover="background:rgba(148,188,227,.08)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span style="font-family:'Barlow Condensed';font-size:20px;font-weight:600;letter-spacing:.06em">LINKEDIN</span><span style="font-size:13px;color:rgba(232,235,238,.55)">/in/fadiamin</span></a>
+        <a href="https://www.instagram.com/fadiamiin/" target="_blank" class="blueprint" style="padding:18px;color:var(--color-text);display:flex;flex-direction:column;gap:4px" style-hover="background:rgba(148,188,227,.08)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span style="font-family:'Barlow Condensed';font-size:20px;font-weight:600;letter-spacing:.06em">INSTAGRAM</span><span style="font-size:13px;color:rgba(232,235,238,.55)">@fadiamiin</span></a>
+        <a href="https://linktr.ee/fadiamin" target="_blank" class="blueprint" style="padding:18px;color:var(--color-text);display:flex;flex-direction:column;gap:4px" style-hover="background:rgba(148,188,227,.08)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span style="font-family:'Barlow Condensed';font-size:20px;font-weight:600;letter-spacing:.06em">LINKTREE</span><span style="font-size:13px;color:rgba(232,235,238,.55)">@fadiamin</span></a>
+        <a href="https://twitter.com/fadiamin88" target="_blank" class="blueprint" style="padding:18px;color:var(--color-text);display:flex;flex-direction:column;gap:4px" style-hover="background:rgba(148,188,227,.08)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span style="font-family:'Barlow Condensed';font-size:20px;font-weight:600;letter-spacing:.06em">X</span><span style="font-size:13px;color:rgba(232,235,238,.55)">@fadiamin88</span></a>
+        <a href="https://www.facebook.com/fadiamin" target="_blank" class="blueprint" style="padding:18px;color:var(--color-text);display:flex;flex-direction:column;gap:4px" style-hover="background:rgba(148,188,227,.08)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span style="font-family:'Barlow Condensed';font-size:20px;font-weight:600;letter-spacing:.06em">FACEBOOK</span><span style="font-size:13px;color:rgba(232,235,238,.55)">/fadiamin</span></a>
+        <a href="assets/Fadi-Elamin-Bio.pdf" target="_blank" class="blueprint" style="padding:18px;color:var(--color-text);display:flex;flex-direction:column;gap:4px" style-hover="background:rgba(148,188,227,.08)"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i><span style="font-family:'Barlow Condensed';font-size:20px;font-weight:600;letter-spacing:.06em;color:#94bce3">BIO PDF ↓</span><span style="font-size:13px;color:rgba(232,235,238,.55)"><span data-l="ar">السيرة المختصرة</span><span data-l="en">Executive bio</span></span></a>
+      </div>
+    </div>
+    <div data-reveal="" class="blueprint" style="padding:36px;border-color:rgba(148,188,227,.3);align-self:start"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <sc-if value="{{ notSent }}" hint-placeholder-val="{{ true }}">
+      <div style="font-family:'Barlow Condensed';font-size:14px;letter-spacing:.18em;color:#94bce3;margin-bottom:24px">MISSION BRIEF</div>
+      <div style="display:flex;flex-direction:column;gap:18px">
+        <div style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span data-l="ar">نوع الطلب</span><span data-l="en">Request type</span>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <sc-for list="{{ topics }}" as="t" hint-placeholder-count="5"><button onClick="{{ t.pick }}" style="all:unset;cursor:pointer;padding:9px 14px;font-size:14px;border:1px solid {{ t.border }};color:{{ t.color }};background:{{ t.bg }}">{{ t.label }}</button></sc-for>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px">
+          <label style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span><span data-l="ar">الاسم</span><span data-l="en">Name</span> *</span><input value="{{ f_name }}" onChange="{{ setName }}" style="background:transparent;color:var(--color-text);border:1px solid var(--color-divider);padding:12px 14px;font-size:16px;font-family:inherit;border-radius:0"></label>
+          <label style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span><span data-l="ar">الجهة / الشركة</span><span data-l="en">Organization</span></span><input value="{{ f_org }}" onChange="{{ setOrg }}" style="background:transparent;color:var(--color-text);border:1px solid var(--color-divider);padding:12px 14px;font-size:16px;font-family:inherit;border-radius:0"></label>
+          <label style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span><span data-l="ar">بريدك الإلكتروني</span><span data-l="en">Your email</span> *</span><input type="email" dir="ltr" value="{{ f_email }}" onChange="{{ setEmail }}" style="background:transparent;color:var(--color-text);border:1px solid var(--color-divider);padding:12px 14px;font-size:16px;font-family:inherit;border-radius:0"></label>
+          <label style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span><span data-l="ar">الهاتف (اختياري)</span><span data-l="en">Phone (optional)</span></span><input type="tel" dir="ltr" value="{{ f_phone }}" onChange="{{ setPhone }}" style="background:transparent;color:var(--color-text);border:1px solid var(--color-divider);padding:12px 14px;font-size:16px;font-family:inherit;border-radius:0"></label>
+        </div>
+        <sc-if value="{{ isBooking }}" hint-placeholder-val="{{ false }}">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;padding:16px;border:1px dashed rgba(148,188,227,.35)">
+            <label style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span><span data-l="ar">التاريخ المفضل</span><span data-l="en">Preferred date</span></span><input type="date" value="{{ f_date }}" onChange="{{ setDate }}" style="background:transparent;color:var(--color-text);border:1px solid var(--color-divider);padding:11px 14px;font-size:16px;font-family:inherit;border-radius:0;color-scheme:dark"></label>
+            <div style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span><span data-l="ar">الطريقة</span><span data-l="en">Format</span></span>
+              <div style="display:flex;gap:8px;flex-wrap:wrap"><sc-for list="{{ modes }}" as="m" hint-placeholder-count="2"><button onClick="{{ m.pick }}" style="all:unset;cursor:pointer;padding:10px 14px;font-size:14px;border:1px solid {{ m.border }};color:{{ m.color }};background:{{ m.bg }}">{{ m.label }}</button></sc-for></div>
+            </div>
+          </div>
+        </sc-if>
+        <label style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:rgba(232,235,238,.7)"><span><span data-l="ar">تفاصيل الطلب</span><span data-l="en">Details</span> *</span><textarea value="{{ f_msg }}" onChange="{{ setMsg }}" rows="4" style="background:transparent;color:var(--color-text);border:1px solid var(--color-divider);padding:12px 14px;font-size:16px;font-family:inherit;resize:vertical;border-radius:0"></textarea></label>
+        <sc-if value="{{ hasError }}" hint-placeholder-val="{{ false }}"><div style="font-size:14px;color:#f2b8b5">{{ errorText }}</div></sc-if>
+        <button onClick="{{ submit }}" class="btn btn-primary blueprint" style="padding:15px 24px;font-size:17px;width:100%"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>{{ submitLabel }}</button>
+      </div>
+      </sc-if>
+      <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+        <div style="padding:40px 0;display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+          <div style="font-family:'Barlow Condensed';font-size:14px;letter-spacing:.18em;color:#94bce3">TRANSMISSION RECEIVED</div>
+          <div style="font-size:30px;font-weight:600"><span data-l="ar">شكراً، وصلت رسالتك.</span><span data-l="en">Thank you — message received.</span></div>
+          <p style="margin:0;font-size:16px;line-height:1.8;color:rgba(232,235,238,.7)"><span data-l="ar">سأتواصل معك عبر البريد الذي أرسلته في أقرب وقت.</span><span data-l="en">I'll reply to the email you provided shortly.</span></p>
+          <button onClick="{{ reset }}" class="btn btn-secondary" style="color:var(--color-text)"><span data-l="ar">إرسال طلب آخر</span><span data-l="en">Send another</span></button>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</section>
+
+<footer style="border-top:1px solid var(--color-divider)">
+  <div style="max-width:1280px;margin:0 auto;padding:28px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:rgba(232,235,238,.5)">
+    <span>© 2026 Fadi Elamin — فادي الأمين</span>
+    <span style="font-family:'Barlow Condensed';letter-spacing:.16em">TECHNOLOGY · AVIATION · FUTURE</span>
+  </div>
+</footer>
+
+<sc-if value="{{ showRail }}" hint-placeholder-val="{{ false }}">
+<nav style="position:fixed;top:50%;inset-inline-end:18px;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:4px">
+  <sc-for list="{{ chapters }}" as="ch" hint-placeholder-count="12">
+    <a href="{{ ch.href }}" title="{{ ch.label }}" style="display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:4px 0;color:var(--color-text)">
+      <span style="font-size:13px;white-space:nowrap;padding:3px 8px;background:rgba(10,11,13,.85);border:1px solid rgba(148,188,227,.35);opacity:{{ ch.lop }};transition:opacity .3s">{{ ch.label }}</span>
+      <span style="width:{{ ch.w }};height:2px;background:{{ ch.col }};transition:width .3s,background .3s"></span>
+    </a>
+  </sc-for>
+</nav>
+</sc-if>
+<sc-if value="{{ hasNext }}" hint-placeholder-val="{{ false }}">
+  <button onClick="{{ goNext }}" style="all:unset;cursor:pointer;position:fixed;bottom:max(16px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:40;display:flex;align-items:center;gap:12px;padding:11px 18px;background:rgba(10,11,13,.88);backdrop-filter:blur(10px);border:1px solid rgba(148,188,227,.45);color:#e8ebee;font-size:15px;box-shadow:0 8px 30px rgba(0,0,0,.4);transition:border-color .2s" style-hover="border-color:#b5d9fd">
+    <span style="font-family:'Barlow Condensed';font-size:12px;letter-spacing:.18em;color:#94bce3">{{ nextNum }}</span><span><span data-l="ar">التالي:</span><span data-l="en">Next:</span> {{ nextLabel }}</span><span style="color:#94bce3;animation:fe-pulse 1.6s infinite">↓</span>
+  </button>
+</sc-if>
+<sc-if value="{{ hasVid }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ closeOverlay }}" style="position:fixed;inset:0;z-index:100;background:rgba(5,6,8,.92);backdrop-filter:blur(8px);display:grid;place-items:center;padding:24px">
+    <div class="blueprint" style="width:min(1100px,100%);border-color:rgba(148,188,227,.4);background:#000"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="aspect-ratio:16/9"><iframe src="https://www.youtube.com/embed/{{ vid }}?autoplay=1&amp;rel=0" style="width:100%;height:100%;border:0;display:block" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen=""></iframe></div>
+    </div>
+    <button onClick="{{ closeAll }}" style="all:unset;cursor:pointer;position:absolute;top:24px;inset-inline-end:24px;font-family:'Barlow Condensed';letter-spacing:.16em;color:#e8ebee;border:1px solid var(--color-divider);padding:10px 16px">CLOSE ✕</button>
+  </div>
+</sc-if>
+<sc-if value="{{ hasImg }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ closeOverlay }}" onTouchStart="{{ lbTs }}" onTouchEnd="{{ lbTe }}" style="position:fixed;inset:0;z-index:100;background:rgba(5,6,8,.95);backdrop-filter:blur(8px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:{{ lbPad }}">
+    <img src="{{ img }}" alt="{{ imgCap }}" style="max-width:min(1200px,100%);max-height:calc(100dvh - 170px);object-fit:contain;border:1px solid rgba(148,188,227,.4);pointer-events:none">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center;pointer-events:none"><span dir="ltr" style="font-family:'Barlow Condensed';letter-spacing:.16em;color:#94bce3;font-size:14px">{{ imgCount }}</span><span style="font-size:17px;color:#e8ebee">{{ imgCap }}</span></div>
+    <button onClick="{{ prevImg }}" style="all:unset;cursor:pointer;position:absolute;top:50%;left:16px;transform:translateY(-50%);width:48px;height:48px;display:grid;place-items:center;border:1px solid rgba(232,235,238,.25);background:rgba(10,11,13,.7);color:#e8ebee;font-size:20px" style-hover="background:rgba(148,188,227,.15)">←</button>
+    <button onClick="{{ nextImg }}" style="all:unset;cursor:pointer;position:absolute;top:50%;right:16px;transform:translateY(-50%);width:48px;height:48px;display:grid;place-items:center;border:1px solid rgba(232,235,238,.25);background:rgba(10,11,13,.7);color:#e8ebee;font-size:20px" style-hover="background:rgba(148,188,227,.15)">→</button>
+    <button onClick="{{ closeAll }}" style="all:unset;cursor:pointer;position:absolute;top:16px;inset-inline-end:24px;font-family:'Barlow Condensed';letter-spacing:.16em;color:#e8ebee;border:1px solid var(--color-divider);padding:10px 16px">CLOSE ✕</button>
+  </div>
+</sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;defaultLang&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;ar&quot;,&quot;en&quot;],&quot;default&quot;:&quot;ar&quot;,&quot;tsType&quot;:&quot;'ar'|'en'&quot;,&quot;section&quot;:&quot;Language&quot;},&quot;photoTreatment&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;natural&quot;,&quot;duotone&quot;],&quot;default&quot;:&quot;natural&quot;,&quot;tsType&quot;:&quot;'duotone'|'natural'&quot;,&quot;section&quot;:&quot;Imagery&quot;},&quot;motion&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;calm&quot;,&quot;medium&quot;,&quot;strong&quot;],&quot;default&quot;:&quot;calm&quot;,&quot;tsType&quot;:&quot;'calm'|'medium'|'strong'&quot;,&quot;section&quot;:&quot;Motion&quot;},&quot;showAirspace&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Hero&quot;},&quot;aiAutoplay&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;AI section&quot;}}">
+class Component extends DCLogic {
+  state = { lang: null, proj: 0, vid: null, imgIdx: null, gal: 'all', aiCase: 0, aiStart: 0, galMore: false, sec: 0, wide: false, nav: true, narrow: false, sm: false, menu: false, touch: false, mfg: 0, mfgStart: 0, faq: 0, t: 0, topic: 0, mode: 0,
+    f: { name: '', org: '', email: '', phone: '', date: '', msg: '' }, status: 'idle', err: '' };
+  heroRef = React.createRef(); skyRef = React.createRef(); typeRef = React.createRef(); tiltRef = React.createRef(); progRef = React.createRef();
+  TO = 'fadieltighani@yahoo.com';
+  PROJECTS = [
+    { ar: ['درون الإنقاذ البحري', 'الدفاع المدني — الإمارات', 'مدير المشروع', 'درون إنقاذ بحري متعدد المراوح بلوحة تحكم مبتكرة، يُسقط من 2 إلى 4 عوامات نجاة على الغريق قبل وصول فرق الإنقاذ التقليدية. أُطلق مع القيادة العامة للدفاع المدني لتعزيز السلامة على الشواطئ.'],
+      en: ['Marine rescue drone', 'UAE Civil Defense', 'Project Manager', 'A multi-rotor rescue drone with an innovative control board that drops 2–4 ring buoys to a swimmer in distress ahead of conventional rescue teams. Deployed with UAE Civil Defense to strengthen beach safety.'],
+      code: 'WATER RESCUE DRONE', year: '2016', img: 'assets/p3.jpg', tags: ['SAR', 'MARITIME', 'MULTI-ROTOR'] },
+    { ar: ['درون الإطفاء', 'الدفاع المدني — الإمارات', 'مدير المشروع', 'منظومة إطفاء بالدرون: إطفاء مربوط بخرطوم من الأرض، كبسولات إطفاء تُسقط من الجو، ومراقبة حرارية ودعم للقيادة في الحرائق الصناعية والسكنية.'],
+      en: ['Firefighting drone', 'UAE Civil Defense', 'Project Manager', 'A drone firefighting system: tethered hose suppression, air-dropped extinguisher capsules, and thermal monitoring with command support for industrial and residential fires.'],
+      code: 'FIREFIGHTING DRONE', year: '2016–2017', img: 'assets/p1.png', tags: ['TETHERED', 'THERMAL', 'CIVIL DEFENSE'] },
+    { ar: ['الدرون في الصندوق', 'عمليات ذاتية ومراقبة', 'قائد المشروع', 'محطات Drone-in-a-Box تُطلق الدرون وتستقبله وتشحنه ذاتياً، للمراقبة المستمرة للمنشآت والحدود دون طيار في الموقع. الصور من اختبارات ميدانية ليلية.'],
+      en: ['Drone-in-a-box', 'Autonomous monitoring', 'Project Lead', 'Docking stations that launch, recover and recharge drones autonomously for persistent monitoring of sites and borders without an on-site pilot. Images from night field trials.'],
+      code: 'DRONE-IN-A-BOX', year: '2025', img: 'assets/p14.jpg', tags: ['AUTONOMY', 'BVLOS', 'SURVEILLANCE'] },
+    { ar: ['مكافحة الدرون والتشويش', 'قطاعات الأمن والدفاع', 'مدير المشروع', 'أنظمة كشف وتتبع واعتراض الطائرات المسيّرة غير المصرح بها لحماية المجال الجوي المقيد والمنشآت الحيوية، بما فيها أجهزة التشويش المحمولة.'],
+      en: ['Counter-UAV & jamming', 'Security & defense sectors', 'Project Manager', 'Detection, tracking and interception of unauthorized drones to protect restricted airspace and critical sites, including handheld jammers.'],
+      code: 'DRONE JAMMING / ANTI-UAV', year: '—', img: 'assets/p17.jpg', tags: ['C-UAS', 'DETECTION', 'JAMMING'] },
+    { ar: ['درون الاستجابة الأولى', 'جهات الطوارئ', 'مدير المشروع', 'منصة تصل إلى موقع الحادث قبل الفرق الأرضية لتنقل صورة حية وتدعم قرار الاستجابة، مع تشغيل من مركبة ميدانية.'],
+      en: ['First-response drone', 'Emergency services', 'Project Manager', 'A platform that reaches an incident before ground teams, streaming live imagery to support response decisions, operated from a field vehicle.'],
+      code: 'FIRST RESPONSE DRONE', year: '—', img: 'assets/p6.jpg', tags: ['EMERGENCY', 'LIVE FEED'] },
+    { ar: ['التوصيل والتاكسي الجوي', 'التنقل الجوي المتقدم', 'مدير المشروع', 'مشروع في التنقل الجوي المتقدم يشمل التوصيل بالدرون وأنظمة التاكسي الجوي ضمن رؤية المدن الذكية.'],
+      en: ['Delivery & air taxi', 'Advanced air mobility', 'Project Manager', 'An advanced-air-mobility programme covering drone delivery and air-taxi systems as part of smart-city visions.'],
+      code: 'DELIVERY & AIR TAXI', year: '—', img: 'assets/p8.jpg', tags: ['AAM', 'eVTOL', 'SMART CITY'] },
+    { ar: ['درون الزراعة الدقيقة', 'المزارع في الخليج وMENA', 'قائد المشروع', 'تصوير متعدد الأطياف يكشف مشاكل الري وتباين التربة والآفات قبل أن تُرى بالعين، مع إمكانية مسح المحصول يومياً أو أسبوعياً.'],
+      en: ['Precision agriculture drone', 'GCC & MENA farmland', 'Project Lead', 'Multispectral imaging that reveals irrigation issues, soil variation and pests before they are visible, with daily or weekly crop surveys.'],
+      code: 'AGRICULTURE DRONE', year: '2018', img: 'assets/p13.jpg', tags: ['MULTISPECTRAL', 'AI', 'AGRITECH'] }
+  ];
+  GALLERY = [
+    ['p5.jpg','l','box','اختبار ليلي لمحطة Drone-in-a-Box','Night trial of a drone-in-a-box station'],
+    ['p8.jpg','p','field','عمليات ميدانية قرب أفق دبي','Field operations near the Dubai skyline'],
+    ['p14.jpg','l','box','محطة DBOX والدرون عليها','DBOX dock with the drone on top'],
+    ['p1.png','p','prog','حل الإطفاء المربوط بالدرون','Tethered drone firefighting solution'],
+    ['p9.jpg','l','box','منصة الهبوط مفتوحة ليلاً','Landing pad open at night'],
+    ['p18.jpg','l','sys','درون الدفاع المدني مع آلية الإطفاء','Civil Defense drone with fire engine'],
+    ['p15.jpg','p','box','إضاءة ميدانية للاختبار الليلي','Field lighting for the night trial'],
+    ['p17.jpg','l','sys','جهاز تشويش محمول لمكافحة الدرون','Handheld counter-drone jammer'],
+    ['p3.jpg','l','prog','درون الإنقاذ البحري وعوامات النجاة','Marine rescue drone with ring buoys'],
+    ['p6.jpg','p','field','محطة التحكم الأرضية','Ground control station'],
+    ['p7.jpg','l','field','نقطة عمليات ميدانية','Field operations post'],
+    ['p4.jpg','p','prog','تغطية صحفية لمشروع الإنقاذ البحري','Press coverage of the marine rescue project'],
+    ['p11.jpg','l','box','تجهيز المحطة عند الغروب','Setting up the dock at dusk'],
+    ['p2.jpg','l','sys','كبسولات الإطفاء الجوية','Air-dropped extinguisher capsules'],
+    ['p16.jpg','p','field','التشغيل من مركبة ميدانية','Operating from a field vehicle'],
+    ['p12.jpg','l','box','المحطة في موقع الاختبار','The dock on the test site'],
+    ['p0.png','p','sys','درون وشاشة نظام مكافحة الدرون','Drone and counter-UAV display'],
+    ['p13.jpg','p','field','موقع مسح ميداني','Survey site'],
+    ['p19.jpg','p','prog','شهادات ISO لـ My Skies','My Skies ISO certificates'],
+    ['f-red.jpg','p','field','تجهيز منصة درون قبل الاختبار','Preparing a drone platform before testing'],
+    ['f-team.jpg','l','field','فريق العمل مع منصة الدرون','The team with the drone platform'],
+    ['f-test.jpg','p','field','اختبار ميداني مع فريق التشغيل','Field test with the operations team'],
+    ['f-sign.jpg','l','events','توقيع اتفاقية شراكة','Signing a partnership agreement'],
+    ['f-sign2.jpg','p','events','مراسم توقيع الاتفاقية','Agreement signing ceremony'],
+    ['f-meet.jpg','l','events','اجتماع مع الشركاء في مكتب My Skies','Meeting partners at the My Skies office'],
+    ['f-group.jpg','l','events','لقاء مع شركاء ومستثمرين','Meeting with partners and investors'],
+    ['f-booth.jpg','l','events','جناح My Skies Aviation في المعرض','My Skies Aviation exhibition stand'],
+    ['f-stage.jpg','p','events','متحدث في VertiExpo Dubai 2025','Speaking at VertiExpo Dubai 2025'],
+    ['f-summit.jpg','l','events','قمة العرب للطيران 2021','Arab Aviation Summit 2021']
+  ];
+  CATS = [{ id: 'all', ar: 'الكل', en: 'All', tag: '' }, { id: 'box', ar: 'Drone-in-a-Box', en: 'Drone-in-a-Box', tag: 'DRONE-IN-A-BOX' }, { id: 'field', ar: 'العمليات الميدانية', en: 'Field ops', tag: 'FIELD OPS' }, { id: 'sys', ar: 'المنظومات والمعدات', en: 'Systems', tag: 'SYSTEMS' }, { id: 'events', ar: 'الفعاليات والشراكات', en: 'Events & partnerships', tag: 'EVENTS' }, { id: 'prog', ar: 'البرامج والاعتمادات', en: 'Programmes', tag: 'PROGRAMMES' }];
+  AI = [
+    { code: 'C-UAS', img: 'assets/p17.jpg', boxes: [[24, 6, 52, 58, 'JAMMER', '0.97'], [4, 66, 92, 32, 'CASE', '0.92']], ar: ['كشف الدرون المعادية ومكافحتها', 'تم تصنيف التهديد ← تحييد بالتشويش ضمن القوانين المحلية'], en: ['Hostile-drone detection & counter-UAV', 'Threat classified → RF mitigation within local law'] },
+    { code: 'DRONE-IN-A-BOX', img: 'assets/p14.jpg', boxes: [[26, 36, 54, 48, 'DOCK STATION', '0.98'], [38, 18, 28, 24, 'UAV · DOCKED', '0.95']], ar: ['المراقبة الذاتية بمحطات Drone-in-a-Box', 'الطلعة التالية مجدولة ← إقلاع ذاتي، دورية، عودة وشحن'], en: ['Autonomous monitoring with drone-in-a-box', 'Next sortie scheduled → autonomous launch, patrol, return, recharge'] },
+    { code: 'FIRST RESPONSE', img: 'assets/p18.jpg', boxes: [[36, 60, 30, 24, 'UAV', '0.96'], [58, 16, 40, 38, 'FIRE ENGINE', '0.94']], ar: ['الاستجابة للطوارئ والإطفاء', 'بث مباشر لمركز القيادة ← توجيه الفرق الأرضية'], en: ['Emergency response & firefighting', 'Live feed to command → ground teams directed'] },
+    { code: 'BVLOS · U-SPACE', img: 'assets/p5.jpg', boxes: [[2, 16, 34, 80, 'OPERATORS', '0.93'], [60, 36, 30, 28, 'DOCK · LINK OK', '0.97']], ar: ['عمليات BVLOS وإدارة المجال الجوي', 'مسار الرحلة معتمد ← تشغيل خارج مدى الرؤية'], en: ['BVLOS & airspace management', 'Flight path authorised → beyond-visual-line-of-sight operation'] }
+  ];
+  MFG = [
+    { code: 'R&D · DESIGN', img: 'assets/p2.jpg', ar: ['البحث والتصميم', 'تصميم المنصة والحمولة انطلاقاً من متطلبات المهمة، مع إعادة 10% من الإيرادات السنوية للبحث والتطوير بالشراكة مع الجامعات.', ['تحليل متطلبات المهمة والتشغيل', 'تصميم الهيكل والحمولة والأنظمة الفرعية', 'شراكات بحثية مع الجامعات']], en: ['Research & design', 'Platform and payload designed from mission requirements, with 10% of annual turnover reinvested in R&D with universities.', ['Mission and operating requirements', 'Airframe, payload and subsystem design', 'Research partnerships with universities']] },
+    { code: 'PROTOTYPING', img: 'assets/p11.jpg', ar: ['النماذج الأولية والاختبار', 'بناء نماذج أولية واختبارها ميدانياً قبل الإنتاج، ومنها اختبارات Drone-in-a-Box الليلية.', ['نماذج أولية سريعة', 'اختبارات ميدانية نهارية وليلية', 'تحسين التصميم بناءً على النتائج']], en: ['Prototyping & trials', 'Prototypes built and field-tested before production, including night trials of drone-in-a-box systems.', ['Rapid prototypes', 'Day and night field trials', 'Design iteration from results']] },
+    { code: 'ASSEMBLY · INTEGRATION', img: 'assets/p14.jpg', ar: ['التجميع والتكامل', 'تجميع الهيكل والإلكترونيات والحساسات والمحطة الأرضية في منظومة واحدة جاهزة للتشغيل.', ['تجميع الهيكل والإلكترونيات', 'دمج الحساسات والحمولات', 'ربط المحطة الأرضية والاتصالات']], en: ['Assembly & integration', 'Airframe, electronics, sensors and ground station assembled into one operational system.', ['Airframe and electronics assembly', 'Sensor and payload integration', 'Ground station and data link']] },
+    { code: 'QUALITY · ISO', img: 'assets/p19.jpg', ar: ['الجودة والاعتماد', 'إنتاج وفق أنظمة إدارة الجودة والبيئة والسلامة المهنية المعتمدة ISO 9001 و14001 و45001.', ['فحص الجودة في كل مرحلة', 'توثيق وتتبع المكونات', 'اختبار طيران قبل التسليم']], en: ['Quality & certification', 'Production under certified quality, environmental and occupational-safety systems: ISO 9001, 14001 and 45001.', ['Quality checks at every stage', 'Component documentation and traceability', 'Acceptance flight test before delivery']] },
+    { code: 'DELIVERY', img: 'assets/p18.jpg', ar: ['التسليم والتشغيل', 'تسليم المنظومة مع وثائقها وتشغيل تجريبي في موقع العميل حتى تصبح جاهزة للمهمة.', ['تسليم مع الوثائق الفنية', 'تشغيل تجريبي في الموقع', 'مواءمة مع متطلبات الطيران المدني']], en: ['Delivery & commissioning', 'System delivered with documentation and commissioned on the client\'s site until mission-ready.', ['Handover with technical documentation', 'On-site commissioning', 'Alignment with civil aviation requirements']] },
+    { code: 'TRAINING · SUPPORT', img: 'assets/p7.jpg', ar: ['التدريب والدعم', 'تدريب الطيارين والفنيين، وصيانة ودعم فني مستمر بعد التسليم.', ['تدريب الطيارين والمشغلين', 'تدريب فنيي الصيانة', 'دعم فني وقطع غيار']], en: ['Training & support', 'Pilot and technician training, with maintenance and ongoing technical support after delivery.', ['Pilot and operator training', 'Maintenance technician training', 'Technical support and spares']] }
+  ];
+  CHAPTERS = [['top','البداية','Start'],['brief','باختصار','In brief'],['about','عنّي','About'],['track','الإنجازات','Track record'],['services','الخدمات','Services'],['ai','الذكاء الاصطناعي','AI'],['mfg','التصنيع','Manufacturing'],['projects','المشاريع','Projects'],['field','الصور','Gallery'],['media','اللقاءات','Interviews'],['majaal','المجال','Al Majaal'],['career','المؤهلات','Credentials'],['stages','المنصات','On stage'],['insights','المعرفة','Insights'],['contact','تواصل','Contact']];
+  STEPS = [{ code: '01 SENSE', ar: 'رصد', en: 'Sense' }, { code: '02 DETECT', ar: 'كشف وتصنيف', en: 'Detect' }, { code: '03 DECIDE', ar: 'قرار', en: 'Decide' }, { code: '04 ACT', ar: 'تنفيذ', en: 'Act' }];
+  WORDS = { ar: ['منظومات الطائرات بدون طيار', 'دروع مكافحة الدرون', 'مجالاً جوياً يديره الذكاء الاصطناعي', 'أطر U-Space وBVLOS', 'برامج درون للحكومات'], en: ['UAV systems', 'counter-drone shields', 'AI-driven airspace', 'U-Space & BVLOS frameworks', 'government drone programmes'] };
+  galList() {
+    const g = this.state.gal; if (g !== 'all') return this.GALLERY.filter(x => x[2] === g);
+    if (!this._mix) { const by = {}; this.GALLERY.forEach(x => (by[x[2]] = by[x[2]] || []).push(x)); const ks = ['events', 'box', 'field', 'sys', 'prog'], out = []; for (let i = 0; out.length < this.GALLERY.length; i++) ks.forEach(k => by[k] && by[k][i] && out.push(by[k][i])); this._mix = out; }
+    return this._mix;
+  }
+  initSky() {
+    const cv = this.skyRef.current; if (!cv || !(this.props.showAirspace ?? true)) return;
+    const ctx = cv.getContext('2d'), m = this.props.motion ?? 'calm', sp = m === 'strong' ? 1.7 : m === 'medium' ? 1.25 : 0.85, R = Math.random;
+    const ds = Array.from({ length: 9 }, (_, i) => ({ a: R() * 6.28, b: R() * 6.28, fx: .00012 + R() * .00014, fy: .0001 + R() * .00016, cx: .1 + R() * .8, cy: .15 + R() * .7, rx: .1 + R() * .25, ry: .08 + R() * .2, id: 'UAS-' + (104 + i * 13), alt: 60 + Math.round(R() * 90), hostile: i % 4 === 2, trail: [] }));
+    let w = 0, h = 0;
+    this.skySize = () => { const d = Math.min(2, window.devicePixelRatio || 1); w = cv.clientWidth; h = cv.clientHeight; cv.width = w * d; cv.height = h * d; ctx.setTransform(d, 0, 0, d, 0, 0); };
+    this.skySize(); window.addEventListener('resize', this.skySize);
+    let vis = true; this.skyIO = new IntersectionObserver(e => { vis = e[0].isIntersecting; }); this.skyIO.observe(cv);
+    const C = 'rgba(116,157,196,', t0 = performance.now();
+    const frame = (now) => {
+      this.raf = requestAnimationFrame(frame); if (!vis || !w) return;
+      const t = (now - t0) * sp, rtl = this.lang() === 'ar', ox = rtl ? w * .26 : w * .74, oy = h * .46, maxR = Math.hypot(w, h);
+      ctx.clearRect(0, 0, w, h); ctx.lineWidth = 1;
+      for (let r = 90; r < maxR; r += 90) { ctx.strokeStyle = C + (r % 270 === 0 ? .16 : .07) + ')'; ctx.beginPath(); ctx.arc(ox, oy, r, 0, 6.283); ctx.stroke(); }
+      const ang = (t * .0009) % 6.283;
+      for (let k = 0; k < 24; k++) { ctx.fillStyle = C + (.05 * (1 - k / 24)) + ')'; ctx.beginPath(); ctx.moveTo(ox, oy); ctx.arc(ox, oy, maxR, ang - (k + 1) * .02, ang - k * .02); ctx.closePath(); ctx.fill(); }
+      ctx.strokeStyle = C + '.45)'; ctx.beginPath(); ctx.moveTo(ox, oy); ctx.lineTo(ox + Math.cos(ang) * maxR, oy + Math.sin(ang) * maxR); ctx.stroke();
+      ctx.font = '11px "Barlow Condensed", sans-serif';
+      let lock = null, best = 160; const mo = this.mouse;
+      ds.forEach(d => {
+        const x = (d.cx + d.rx * Math.sin(d.a + t * d.fx)) * w, y = (d.cy + d.ry * Math.sin(d.b + t * d.fy)) * h;
+        d.x = x; d.y = y; d.trail.push([x, y]); if (d.trail.length > 70) d.trail.shift();
+        let da = Math.atan2(y - oy, x - ox); if (da < 0) da += 6.283; const hit = Math.max(0, 1 - ((ang - da + 6.283) % 6.283) / .9);
+        ctx.strokeStyle = C + (.12 + hit * .3) + ')'; ctx.beginPath(); d.trail.forEach(([px, py], j) => j ? ctx.lineTo(px, py) : ctx.moveTo(px, py)); ctx.stroke();
+        const q = 4; ctx.strokeStyle = 'rgba(181,217,253,' + (.45 + hit * .55) + ')'; ctx.beginPath();
+        if (d.hostile) { ctx.moveTo(x, y - q - 1); ctx.lineTo(x + q + 1, y); ctx.lineTo(x, y + q + 1); ctx.lineTo(x - q - 1, y); ctx.closePath(); } else ctx.rect(x - q, y - q, q * 2, q * 2);
+        ctx.stroke(); ctx.fillStyle = 'rgba(181,217,253,' + (.35 + hit * .5) + ')'; ctx.fillText(d.id, x + 9, y - 7);
+        if (mo) { const dd = Math.hypot(mo.x - x, mo.y - y); if (dd < best) { best = dd; lock = d; } }
+      });
+      if (mo) {
+        ctx.strokeStyle = 'rgba(232,235,238,.09)'; ctx.beginPath(); ctx.moveTo(0, mo.y); ctx.lineTo(w, mo.y); ctx.moveTo(mo.x, 0); ctx.lineTo(mo.x, h); ctx.stroke();
+        ctx.strokeStyle = 'rgba(181,217,253,.6)'; ctx.beginPath(); ctx.arc(mo.x, mo.y, 18, 0, 6.283); ctx.stroke();
+        if (lock) {
+          const { x, y } = lock, b = 16, l = 6; ctx.strokeStyle = '#b5d9fd'; ctx.lineWidth = 1.5; ctx.beginPath();
+          [[-1, -1], [1, -1], [1, 1], [-1, 1]].forEach(([sx, sy]) => { ctx.moveTo(x + sx * b, y + sy * (b - l)); ctx.lineTo(x + sx * b, y + sy * b); ctx.lineTo(x + sx * (b - l), y + sy * b); });
+          ctx.stroke(); ctx.lineWidth = 1; ctx.setLineDash([3, 4]); ctx.beginPath(); ctx.moveTo(mo.x, mo.y); ctx.lineTo(x, y); ctx.stroke(); ctx.setLineDash([]);
+          const txt = 'LOCK ' + lock.id + ' · ALT ' + lock.alt + 'M · ' + (lock.hostile ? 'UNKNOWN' : 'COOPERATIVE'), tw = ctx.measureText(txt).width + 16, bx = Math.max(8, Math.min(x + 22, w - tw - 8));
+          ctx.fillStyle = 'rgba(10,11,13,.88)'; ctx.fillRect(bx, y + 20, tw, 22); ctx.strokeStyle = 'rgba(148,188,227,.6)'; ctx.strokeRect(bx, y + 20, tw, 22); ctx.fillStyle = '#e8ebee'; ctx.fillText(txt, bx + 8, y + 35);
+        }
+      }
+    };
+    this.raf = requestAnimationFrame(frame);
+  }
+  initType() {
+    let wi = 0, ci = 0, del = false;
+    const tick = () => {
+      const el = this.typeRef.current, list = this.WORDS[this.lang()], wd = list[wi % list.length];
+      if (el) el.textContent = wd.slice(0, ci);
+      if (!del) { ci++; if (ci > wd.length) { del = true; this.typeT = setTimeout(tick, 1700); return; } }
+      else { ci--; if (ci < 0) { del = false; ci = 0; wi++; } }
+      this.typeT = setTimeout(tick, del ? 28 : 62);
+    };
+    tick();
+  }
+  VIDEOS = [
+    { id: 'ZLlm6pavANg', kind: 'PODCAST · SARD', title: 'بودكاست سرد | من سودانير إلى مستقبل الطائرات بدون طيار في السودان' },
+    { id: 'hLe-t8-xQZE', kind: 'INTERVIEW', title: 'كيف أصبحت طائرات الدرون تدرّ ملايين الدولارات للشركات؟ قصة فادي الأمين' },
+    { id: 'tvHF7oei9Ow', kind: 'MAKANA · EP 23', title: 'برنامج مكنة — الحلقة 23 مع رائد الأعمال فادي التجاني' },
+    { id: null, href: 'https://m.facebook.com/story.php?story_fbid=pfbid0kMVtVsZE6x9X5wAuasDAY6dcJQGtyBMHhD9Gy7kEYzYtFP8fU39i8gktDwbrWwSZl&id=1509619001', thumb: 'assets/p4.jpg', kind: 'TV · ABC GULF', title: 'لقاء قناة إي بي سي الخليجية' }
+  ];
+  INSTA = ['reel/CmT_QN0A7H6', 'reel/CkvL4L1A0p0', 'reel/Ddy4fBvtdfR'];
+  FAQS = [
+    { ar: ['ما هي عمليات BVLOS؟', 'BVLOS تعني الطيران خارج مدى الرؤية البصرية للمشغّل. تتيح مهام طويلة مثل فحص خطوط الأنابيب والتوصيل، وتتطلب أنظمة كشف وتجنّب وموافقات خاصة من هيئة الطيران المدني.'],
+      en: ['What are BVLOS operations?', 'BVLOS means flying beyond the operator\'s visual line of sight. It enables long missions such as pipeline inspection and delivery, and requires detect-and-avoid systems and specific approval from the civil aviation authority.'] },
+    { ar: ['ما الفرق بين UTM وU-Space؟', 'كلاهما إطار لإدارة حركة الدرون في المجال الجوي المنخفض. UTM هو المصطلح العام دولياً، وU-Space هو الإطار الأوروبي المنظّم بخدمات محددة مثل التعريف عن بعد والموافقة على مسار الرحلة.'],
+      en: ['UTM vs. U-Space — what\'s the difference?', 'Both manage drone traffic in low-level airspace. UTM is the general international term; U-Space is the regulated European framework with defined services such as remote ID and flight authorisation.'] },
+    { ar: ['كيف تعمل أنظمة مكافحة الدرون؟', 'تمر بثلاث مراحل: الكشف عبر الرادار والترددات والكاميرات، ثم التعريف والتتبع، ثم التحييد بالتشويش أو السيطرة أو الاعتراض حسب القوانين المحلية.'],
+      en: ['How do counter-drone systems work?', 'Three stages: detection via radar, RF and cameras; identification and tracking; then mitigation by jamming, takeover or interception, within local law.'] },
+    { ar: ['أين تحقق الدرون أعلى عائد للشركات؟', 'في الفحص الصناعي والتعدين، الزراعة الدقيقة، المسح الجوي، إدارة المطارات، والمراقبة الأمنية؛ حيث تقلل الوقت والتكلفة والمخاطر على الأفراد.'],
+      en: ['Where do drones deliver the best ROI?', 'Industrial inspection and mining, precision agriculture, aerial survey, airport operations and security monitoring — where they cut time, cost and risk to people.'] },
+    { ar: ['هل يمكن لجهة حكومية بدء برنامج درون من الصفر؟', 'نعم. يبدأ بتحديد المهمة، ثم اختيار المنصة والحمولة، وبناء الإطار التنظيمي والتدريب، وأخيراً التشغيل والتقييم الميداني.'],
+      en: ['Can a government entity start a drone programme from scratch?', 'Yes: define the mission, select platform and payload, build the regulatory framework and training, then operate and evaluate in the field.'] }
+  ];
+  TOPICS = { ar: ['استشارة', 'حجز اجتماع', 'شراكة / مشروع', 'دعوة للتحدث', 'إعلام / بودكاست'], en: ['Consultation', 'Book a meeting', 'Partnership', 'Speaking invite', 'Media / podcast'] };
+  MODES = { ar: ['أونلاين', 'حضوري — دبي'], en: ['Online', 'In person — Dubai'] };
+
+  lang() { return this.state.lang || this.props.defaultLang || 'ar'; }
+  componentDidMount() {
+    const motion = this.props.motion ?? 'medium';
+    const dist = motion === 'calm' ? 0 : motion === 'strong' ? 48 : 24;
+    const root = this.heroRef.current?.closest('[data-lang]') || document;
+    const show = el => { el.style.opacity = 1; el.style.transform = 'none'; el.setAttribute('data-shown', ''); };
+    this.check = () => { const vh = window.innerHeight; root.querySelectorAll('[data-rv]:not([data-shown])').forEach(el => { if (el.getBoundingClientRect().top < vh * 0.94) show(el); }); };
+    this.io = new IntersectionObserver((ents) => ents.forEach(e => { if (e.isIntersecting) { show(e.target); this.io.unobserve(e.target); } }), { threshold: 0.1 });
+    this.observe = () => {
+      const vh = window.innerHeight;
+      root.querySelectorAll('[data-reveal]:not([data-rv])').forEach((el, i) => {
+        el.setAttribute('data-rv', '');
+        if (el.getBoundingClientRect().top < vh) { el.setAttribute('data-shown', ''); return; }
+        el.style.opacity = 0; el.style.transform = `translateY(${dist}px)`;
+        el.style.transition = `opacity .9s cubic-bezier(.2,.7,.2,1) ${(i % 4) * 0.08}s, transform .9s cubic-bezier(.2,.7,.2,1) ${(i % 4) * 0.08}s, background .3s, border-color .3s`;
+        this.io.observe(el);
+      });
+    };
+    this.observe();
+    window.addEventListener('scroll', this.check, { passive: true });
+    window.addEventListener('resize', this.check);
+    this.fallback = setTimeout(() => root.querySelectorAll('[data-rv]:not([data-shown])').forEach(show), 2500);
+    root.querySelectorAll('[data-count]').forEach(el => {
+      const target = +el.dataset.count; const t0 = performance.now();
+      const step = (t) => { const k = Math.min(1, (t - t0) / 1800); el.textContent = Math.round(target * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(step); };
+      requestAnimationFrame(step);
+    });
+    this.timer = setInterval(() => this.setState(s => { const t = s.t + 1; if ((this.props.aiAutoplay ?? true) && t - s.aiStart >= 9) return { t, aiCase: (s.aiCase + 1) % this.AI.length, aiStart: t, ...(t - s.mfgStart >= 6 ? { mfg: (s.mfg + 1) % this.MFG.length, mfgStart: t } : {}) }; if (t - s.mfgStart >= 6) return { t, mfg: (s.mfg + 1) % this.MFG.length, mfgStart: t }; return { t }; }), 900);
+    this.initSky(); this.initType();
+    this.onProg = () => { const vh = window.innerHeight; let sec = 0; this.CHAPTERS.forEach(([id], k) => { const e = document.getElementById(id); if (e && e.getBoundingClientRect().top < vh * 0.45) sec = k; }); const W = window.innerWidth, wide = W > 1240, nav = W >= 1200, narrow = W < 900, sm = W < 560, st = this.state; if (sec !== st.sec || wide !== st.wide || nav !== st.nav || narrow !== st.narrow || sm !== st.sm) this.setState({ sec, wide, nav, narrow, sm, ...(nav ? { menu: false } : {}) }); const el = this.progRef.current; if (!el) return; const d = document.documentElement, max = d.scrollHeight - window.innerHeight; el.style.width = (max > 0 ? window.scrollY / max * 100 : 0) + '%'; };
+    window.addEventListener('scroll', this.onProg, { passive: true }); window.addEventListener('resize', this.onProg); this.onProg(); this.setState({ touch: window.matchMedia('(hover: none)').matches });
+    this.onMove = (e) => { const h = this.heroRef.current; if (!h) return; const r = h.getBoundingClientRect(), px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height, inside = px >= 0 && px <= 1 && py >= 0 && py <= 1; h.style.setProperty('--mx', px * 100 + '%'); h.style.setProperty('--my', py * 100 + '%'); const cv = this.skyRef.current; if (cv && inside) { const cr = cv.getBoundingClientRect(); this.mouse = { x: e.clientX - cr.left, y: e.clientY - cr.top }; } else this.mouse = null; const tl = this.tiltRef.current; if (tl) tl.style.transform = inside && e.pointerType !== 'touch' ? 'perspective(1000px) rotateY(' + ((px - .5) * 10) + 'deg) rotateX(' + ((.5 - py) * 8) + 'deg)' : 'none'; };
+    window.addEventListener('pointermove', this.onMove, { passive: true }); this.onTouch = (e) => { const t = e.touches && e.touches[0]; if (t) this.onMove({ clientX: t.clientX, clientY: t.clientY, pointerType: 'touch' }); }; window.addEventListener('touchstart', this.onTouch, { passive: true }); window.addEventListener('touchmove', this.onTouch, { passive: true });
+    this.onKey = (e) => { if (e.key === 'Escape') this.setState({ vid: null, imgIdx: null }); if (this.state.imgIdx != null && (e.key === 'ArrowRight' || e.key === 'ArrowLeft')) { const n = this.galList().length; this.setState(s => ({ imgIdx: (s.imgIdx + (e.key === 'ArrowRight' ? 1 : -1) + n) % n })); } };
+    window.addEventListener('keydown', this.onKey);
+  }
+  componentDidUpdate() { this.observe && this.observe(); }
+  componentWillUnmount() {
+    this.io?.disconnect(); clearInterval(this.timer); clearTimeout(this.fallback);
+    window.removeEventListener('scroll', this.check); window.removeEventListener('resize', this.check);
+    window.removeEventListener('pointermove', this.onMove); window.removeEventListener('touchstart', this.onTouch); window.removeEventListener('touchmove', this.onTouch); window.removeEventListener('resize', this.onProg); window.removeEventListener('scroll', this.onProg); window.removeEventListener('resize', this.skySize); cancelAnimationFrame(this.raf); clearTimeout(this.typeT); this.skyIO?.disconnect(); window.removeEventListener('keydown', this.onKey);
+  }
+  radar() {
+    const h = React.createElement, c = '#749dc4';
+    return h('svg', { viewBox: '0 0 150 150', width: '100%', height: '100%', style: { display: 'block' } },
+      [60, 42, 24].map(r => h('circle', { key: r, cx: 75, cy: 75, r, fill: 'none', stroke: c, strokeOpacity: .35, strokeWidth: 1 })),
+      h('line', { x1: 75, y1: 10, x2: 75, y2: 140, stroke: c, strokeOpacity: .25 }),
+      h('line', { x1: 10, y1: 75, x2: 140, y2: 75, stroke: c, strokeOpacity: .25 }),
+      h('g', { style: { transformOrigin: '75px 75px', animation: 'fe-spin 4s linear infinite' } },
+        h('path', { d: 'M75 75 L75 15 A60 60 0 0 1 117 33 Z', fill: c, fillOpacity: .22 }),
+        h('line', { x1: 75, y1: 75, x2: 75, y2: 15, stroke: '#b5d9fd', strokeWidth: 1.2 })),
+      h('circle', { cx: 102, cy: 52, r: 2.5, fill: '#b5d9fd', style: { animation: 'fe-pulse 2s infinite' } }),
+      h('circle', { cx: 52, cy: 98, r: 2, fill: '#b5d9fd', style: { animation: 'fe-pulse 2s .8s infinite' } }),
+      h('text', { x: 8, y: 144, fill: c, fontSize: 9, fontFamily: 'Barlow Condensed', letterSpacing: 1.5 }, 'UAS TRACK · 02'));
+  }
+  scrollToContact() { const el = document.getElementById('contact'); if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 70, behavior: 'smooth' }); }
+  async send() {
+    const s = this.state, L = this.lang(), f = s.f;
+    if (!f.name.trim() || !/^\S+@\S+\.\S+$/.test(f.email) || !f.msg.trim()) {
+      return this.setState({ err: L === 'ar' ? 'يرجى إدخال الاسم وبريد صحيح وتفاصيل الطلب.' : 'Please add your name, a valid email and details.' });
+    }
+    this.setState({ status: 'sending', err: '' });
+    const topic = this.TOPICS.en[s.topic];
+    const body = { _subject: `Website — ${topic} — ${f.name}`, _template: 'table', _captcha: 'false', _replyto: f.email,
+      request: topic, name: f.name, organization: f.org, email: f.email, phone: f.phone, message: f.msg };
+    if (s.topic === 1) { body.preferred_date = f.date; body.format = this.MODES.en[s.mode]; }
+    try {
+      const r = await fetch(`https://formsubmit.co/ajax/${this.TO}`, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(body) });
+      if (!r.ok) throw new Error();
+      this.setState({ status: 'sent' });
+    } catch (e) {
+      this.setState({ status: 'idle', err: L === 'ar' ? 'تعذّر الإرسال، حاول مرة أخرى.' : 'Could not send. Please try again.' });
+    }
+  }
+  renderVals() {
+    const s = this.state, L = this.lang(), ar = L === 'ar';
+    const lat = (25.2048 + Math.sin(s.t / 3) * 0.0021).toFixed(4), lon = (55.2708 + Math.cos(s.t / 4) * 0.0024).toFixed(4), alt = 120 + Math.round(Math.sin(s.t / 2) * 6);
+    const projects = this.PROJECTS.map((p, i) => { const d = p[L]; return { num: String(i + 1).padStart(2, '0'), title: d[0], client: d[1], role: d[2], desc: d[3], en: p.code, year: p.year, img: p.img, tags: p.tags,
+      bg: i === s.proj ? 'rgba(116,157,196,.1)' : 'transparent', numColor: i === s.proj ? '#b5d9fd' : 'rgba(232,235,238,.4)', arrow: ar ? '←' : '→', select: () => { this.setState({ proj: i }); if (s.narrow) setTimeout(() => { const d = document.getElementById('projDetail'); if (d) window.scrollTo({ top: d.getBoundingClientRect().top + window.scrollY - 76, behavior: 'smooth' }); }, 30); } }; });
+    const chip = (on) => ({ border: on ? '#94bce3' : 'rgba(232,235,238,.13)', color: on ? '#0a0b0d' : 'rgba(232,235,238,.8)', bg: on ? '#94bce3' : 'transparent' });
+    const setF = k => e => { const v = e.target.value; this.setState(st => ({ f: { ...st.f, [k]: v } })); };
+    const phase = s.t - s.aiStart, step = Math.min(3, Math.floor(phase / 2)), ac = this.AI[s.aiCase];
+    const gl = this.galList(), cur = s.imgIdx != null ? gl[s.imgIdx] : null, catTag = id => this.CATS.find(c => c.id === id).tag;
+    const clock = new Date().toLocaleTimeString('en-GB', { timeZone: 'Asia/Dubai', hour12: false });
+    return {
+      lang: L, dir: ar ? 'rtl' : 'ltr', photo: this.props.photoTreatment ?? 'natural',
+      toggleLang: () => this.setState({ lang: ar ? 'en' : 'ar' }),
+      mfgSteps: this.MFG.map((m, i) => ({ num: '0' + (i + 1), code: m.code, title: m[L][0], bg: i === s.mfg ? 'rgba(116,157,196,.1)' : 'transparent', fill: i <= s.mfg ? '100%' : '0%', bd: i <= s.mfg ? '#94bce3' : 'rgba(232,235,238,.25)', dot: i === s.mfg ? '#94bce3' : 'transparent', dotCol: i === s.mfg ? '#0a0b0d' : i < s.mfg ? '#94bce3' : 'rgba(232,235,238,.6)', col: i === s.mfg ? '#b5d9fd' : 'rgba(232,235,238,.45)', pick: () => { if (s.mfg !== i) this.setState(st => ({ mfg: i, mfgStart: st.t })); } })),
+      mfgCur: (() => { const m = this.MFG[s.mfg]; return { num: '0' + (s.mfg + 1), code: m.code, img: m.img, title: m[L][0], desc: m[L][1], pts: m[L][2] }; })(),
+      heroRef: this.heroRef, skyRef: this.skyRef, typeRef: this.typeRef, tiltRef: this.tiltRef, progRef: this.progRef, clock,
+      ai: { img: ac.img, code: ac.code, title: ac[L][0], out: ac[L][1], outOp: step >= 3 ? 1 : 0, outY: step >= 3 ? '0px' : '12px',
+        boxes: ac.boxes.map(([x, y, w, h, lab, cf], i) => ({ x: x + '%', y: y + '%', w: w + '%', h: h + '%', lab, cf, op: step >= 1 ? 1 : 0, sc: step >= 1 ? 1 : 1.08, lop: step >= 2 ? 1 : 0, delay: (i * .25) + 's' })) },
+      aiCases: this.AI.map((c, i) => ({ num: '0' + (i + 1), code: c.code, title: c[L][0], bg: i === s.aiCase ? 'rgba(116,157,196,.1)' : 'transparent', col: i === s.aiCase ? '#b5d9fd' : 'rgba(232,235,238,.45)', prog: i === s.aiCase ? Math.min(100, (phase + 1) / 9 * 100) + '%' : '0%', pick: () => this.setState(st => ({ aiCase: i, aiStart: st.t })) })),
+      aiSteps: this.STEPS.map((x, i) => ({ code: x.code, label: x[L], bg: i === step ? '#94bce3' : i < step ? 'rgba(116,157,196,.1)' : 'transparent', bd: i <= step ? '#94bce3' : 'rgba(232,235,238,.13)', col: i === step ? '#0a0b0d' : i < step ? '#94bce3' : 'rgba(232,235,238,.4)', col2: i === step ? '#0a0b0d' : i < step ? '#e8ebee' : 'rgba(232,235,238,.5)' })),
+            telemetry: `${lat}°N · ${lon}°E · ALT ${alt}M`,
+      bookCall: () => { this.setState({ topic: 1, menu: false }); this.scrollToContact(); },
+      projects, cur: projects[s.proj],
+      gallery: (s.galMore || s.gal !== 'all' ? gl : gl.slice(0, 12)).map((g, i) => ({ src: 'assets/' + g[0], cols: g[1] === 'l' ? 2 : 1, rows: g[1] === 'l' ? 1 : 2, cap: ar ? g[3] : g[4], tag: catTag(g[2]), open: () => this.setState({ imgIdx: i }) })),
+      galHasMore: s.gal === 'all' && gl.length > 12, galToggle: () => this.setState(st => ({ galMore: !st.galMore })), galMoreLabel: s.galMore ? (ar ? 'عرض أقل' : 'Show less') : (ar ? 'عرض كل الصور (' + gl.length + ')' : 'Show all photos (' + gl.length + ')'),
+      showRail: s.wide, wideNav: s.nav, menuBtn: !s.nav, showHeadBook: !s.sm, menuOpen: s.menu && !s.nav, menuIcon: s.menu ? '✕' : '☰', toggleMenu: () => this.setState(st => ({ menu: !st.menu })), closeMenu: () => this.setState({ menu: false }), isTouch: s.touch, notTouch: !s.touch,
+      lbPad: s.narrow ? '64px 12px 24px' : '64px 80px 28px', lbTs: e => { this.tx = e.touches[0].clientX; }, lbTe: e => { const dx = e.changedTouches[0].clientX - (this.tx ?? 0); if (Math.abs(dx) > 50) { const n = gl.length; this.setState(st => ({ imgIdx: (st.imgIdx + (dx < 0 ? 1 : -1) + n) % n })); } },
+      chapters: this.CHAPTERS.map(([id, a, e], k) => ({ num: String(k + 1).padStart(2, '0'), href: '#' + id, label: ar ? a : e, lop: k === s.sec ? 1 : 0, w: k === s.sec ? '28px' : '12px', col: k === s.sec ? '#94bce3' : k < s.sec ? 'rgba(148,188,227,.55)' : 'rgba(232,235,238,.25)' })),
+      hasNext: s.sec < this.CHAPTERS.length - 1 && !s.menu, nextNum: String(s.sec + 2).padStart(2, '0') + ' / ' + this.CHAPTERS.length, nextLabel: (this.CHAPTERS[s.sec + 1] || [])[ar ? 1 : 2],
+      goNext: () => { const n = this.CHAPTERS[s.sec + 1]; const e = n && document.getElementById(n[0]); if (e) window.scrollTo({ top: e.getBoundingClientRect().top + window.scrollY - 64, behavior: 'smooth' }); },
+      galCats: this.CATS.map(c => ({ label: c[L], count: c.id === 'all' ? this.GALLERY.length : this.GALLERY.filter(g => g[2] === c.id).length, ...chip(s.gal === c.id), pick: () => this.setState({ gal: c.id, imgIdx: null }) })),
+      videos: this.VIDEOS.map(v => ({ ...v, thumb: v.thumb || `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`, open: () => v.id ? this.setState({ vid: v.id }) : window.open(v.href, '_blank') })),
+      insta: this.INSTA.map(p => ({ src: `https://www.instagram.com/${p}/embed/` })),
+      hasVid: !!s.vid, vid: s.vid, hasImg: !!cur, img: cur ? 'assets/' + cur[0] : '', imgCap: cur ? (ar ? cur[3] : cur[4]) : '', imgCount: cur ? (s.imgIdx + 1) + ' / ' + gl.length : '',
+      prevImg: () => this.setState(st => ({ imgIdx: (st.imgIdx - 1 + gl.length) % gl.length })), nextImg: () => this.setState(st => ({ imgIdx: (st.imgIdx + 1) % gl.length })),
+      closeOverlay: (e) => { if (e.target === e.currentTarget) this.setState({ vid: null, imgIdx: null }); },
+      closeAll: () => this.setState({ vid: null, imgIdx: null }),
+      faqs: this.FAQS.map((f, i) => ({ q: f[L][0], a: f[L][1], open: s.faq === i, sign: s.faq === i ? '−' : '+', toggle: () => this.setState({ faq: s.faq === i ? -1 : i }) })),
+      topics: this.TOPICS[L].map((label, i) => ({ label, ...chip(i === s.topic), pick: () => this.setState({ topic: i }) })),
+      modes: this.MODES[L].map((label, i) => ({ label, ...chip(i === s.mode), pick: () => this.setState({ mode: i }) })),
+      isBooking: s.topic === 1,
+      f_name: s.f.name, f_org: s.f.org, f_email: s.f.email, f_phone: s.f.phone, f_date: s.f.date, f_msg: s.f.msg,
+      setName: setF('name'), setOrg: setF('org'), setEmail: setF('email'), setPhone: setF('phone'), setDate: setF('date'), setMsg: setF('msg'),
+      hasError: !!s.err, errorText: s.err,
+      submitLabel: s.status === 'sending' ? (ar ? 'جارٍ الإرسال…' : 'Sending…') : (s.topic === 1 ? (ar ? 'اطلب موعد الاجتماع' : 'Request meeting') : (ar ? 'أرسل الطلب' : 'Send request')),
+      submit: () => s.status !== 'sending' && this.send(),
+      sent: s.status === 'sent', notSent: s.status !== 'sent',
+      reset: () => this.setState({ status: 'idle', f: { name: '', org: '', email: '', phone: '', date: '', msg: '' } })
+    };
+  }
+}
+</script>
+</body>
+</html>
